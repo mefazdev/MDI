@@ -4,7 +4,7 @@ import React from "react";
 export default function News() {
   return (
     <div>
-      <div className="embed   mt-14 mb-44 px-4 md:px-0 md:w-11/12 m-auto">
+      <div className="embed   mt-14 pb-44 px-4 md:px-0 md:w-11/12 m-auto">
         <div className="home__subhead bg-cyan-800">
           <h3>What&apos;s new</h3>
         </div>

@@ -73,7 +73,7 @@ export default function Footer() {
           </div>
           <div className="flex footer__phone">
             <EmailIcon id="footer__icon" />
-            <p>info@mdikarulai.com </p>
+            <p>info@mdikarulai.org </p>
           </div>
           <div className="footer__input w-fit grid grid-cols-4  gap-3">
             <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center"><FacebookIcon/></div>

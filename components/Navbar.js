@@ -56,18 +56,18 @@ export default function Navbar() {
             <div className="nav__item__row hidden lg:flex    justify-between">
               <span className="flex">
                 <Link href="/">
-                  <h6>Home</h6>
+                  <h6>HOME</h6>
                 </Link>
               </span>
 
               <span className="flex">
                 <Link href="/About">
-                  <h6>About</h6>
+                  <h6>ABOUT</h6>
                 </Link>
               </span>
 
               <span className="flex nav__item__span group cursor-pointer">
-                <h6>Institutions</h6>
+                <h6>INSTITUTIONS</h6>
                 <ArrowDropDownIcon id="nav__icon" />
                 <ul className="dropdown-menu absolute hidden pt-2   group-hover:block  ">
                   <span className="development__head cursor-pointer group">
@@ -128,7 +128,7 @@ export default function Navbar() {
                 </ul>
               </span>
               <span className="flex nav__item__span group cursor-pointer">
-                <h6>Media</h6>
+                <h6>MEDIA</h6>
                 <ArrowDropDownIcon id="nav__icon" />
                 <ul className="dropdown-menu absolute hidden   group-hover:block  ">
                   <span className="development__head cursor-pointer group">
@@ -171,12 +171,12 @@ export default function Navbar() {
 
               <span className="flex">
                 <Link href="/Contact">
-                  <h6>Contact us</h6>
+                  <h6>CONTACT US</h6>
                 </Link>
               </span>
 
               <Link href={'/Donate'}><button className="bg-cyan-800 rounded p-2 px-3 text-white">
-                Donate
+                DONATE
                 <FavoriteIcon className="ml-1" />
               </button></Link>
               

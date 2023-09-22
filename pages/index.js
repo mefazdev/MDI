@@ -13,13 +13,13 @@ export default function Home() {
       <Navbar/>
     
    
-<div className="">
+<div className="content">
 <MainBanner/>
 
-
+<Message/>
 <About/>
 
-<Message/>
+
 
 <Instituions/>
 

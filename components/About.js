@@ -4,7 +4,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="home__about px-4 md:px-0 md:w-11/12 ">
+    <div className="m-auto  mt-10 px-4 md:px-0 md:w-11/12 ">
       <div className="home__subhead">
         <div className="home__subhead bg-cyan-800 ">
           <h3>About us</h3>
@@ -22,7 +22,8 @@ export default function About() {
           allowFullScreen
         ></iframe>
         <div className="home__about__content__right lg:col-span-2">
-          <p>
+          <p className="home__about__p text-gray-700">
+ 
             MDI (registered as Madaru Da&apos;awathil Islamiyya under the Societies
             Registration Act of 1860)is a unique religious ,socio cultural,
             educational and charitable organization with a laudable mission and
@@ -36,7 +37,23 @@ export default function About() {
             sections of humanity. From 25 cents of minimum land at its
             beginning, the campus spread over three acres of lush greenery and
             has State-of-the-Art Infrastructure facilities. 
-            {/* MDI (Madaru Da'wathil Islamiyya), an Islamic institution, has been
+           
+          </p>
+          <Link href="/About">
+            <button className="bg-cyan-800 hover:bg-cyan-700 ">
+              Read More
+            </button>
+          </Link>
+        </div>
+      </div>
+  
+
+    </div>
+  );
+}
+
+
+ {/* MDI (Madaru Da'wathil Islamiyya), an Islamic institution, has been
             operating in the eastern part of Nilambur sub-district in the
             Malappuram district of Kerala for the past two decades. Under the
             leadership of MDI, it has been actively involved in the fields of
@@ -55,16 +72,3 @@ export default function About() {
 students from backward sections to have the skill to do higher studies, start a business, engage
 with the modern world and lead their community. Our goal is to empower the deprived sections
 of society by developing young leaders. */}
-          </p>
-          <Link href="/About">
-            <button className="bg-cyan-800 hover:bg-cyan-700 ">
-              Read More
-            </button>
-          </Link>
-        </div>
-      </div>
-  
-
-    </div>
-  );
-}

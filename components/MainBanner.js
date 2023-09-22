@@ -11,7 +11,7 @@ export default function MainBanner() {
       <div className="bg-cyan-800  py-24  lg:py-36   w-full justify-center">
 
    <Carousel
-        // autoPlay={true}
+        // autoPlay={false}
         interval={4000}
           duration={2000}
         swipe={true}
@@ -26,7 +26,18 @@ export default function MainBanner() {
             <div className="main__head__div">
               <span>
               
-              <h1>MDI KARULAI</h1>
+              <h1>مدار الدعوة الاسلامية</h1>
+              {/* <h1>MDI KARULAI</h1> */}
+              </span>
+            </div>
+          </div>
+          <div className="main__banner__div">
+            
+
+            <div className="main__head__div">
+              <span>
+              
+         <h1>MDI KARULAI</h1>
               </span>
             </div>
           </div>
@@ -42,16 +53,7 @@ export default function MainBanner() {
               </span>
             </div>
           </div>
-          <div className="main__banner__div">
-            
-
-            <div className="main__head__div">
-              <span>
-              
-              <h2>Enrich The Knoweldge</h2>
-              </span>
-            </div>
-          </div>
+         
         
         
          
