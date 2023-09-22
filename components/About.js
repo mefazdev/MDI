@@ -10,12 +10,12 @@ export default function About() {
           <h3>About us</h3>
         </div>
       </div>
-      <div className="home__about__content grid grid-cols-1 gap-5 lg:gap-10 lg:grid-cols-3">
+      <div className="home__about__content grid   gap-5 lg:gap-10 lg:grid-cols-3">
         {/* <div className="home__about__img"></div> */}
-        <iframe
+        <iframe className="h-52 lg:h-full"
           id="if"
           width={"100%"}
-          height="100%"
+          // height="100%"
           src="https://www.youtube.com/embed/6qq1NCmbAtQ?si=yN4CdalLC_wk172W"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
