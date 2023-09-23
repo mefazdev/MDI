@@ -3,7 +3,7 @@ import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndP
 import { useRouter } from 'next/router';
 import React, { useState } from 'react'
 
-export default function index() {
+export default function Admin() {
 const router = useRouter()
     const [username,setUsername]  = useState('')
     const [password,setPasword] = useState('')

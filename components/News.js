@@ -25,6 +25,7 @@ export default function News() {
           if (index < 3) {
             return (
               <iframe
+              key={index}
                 src={data.link}
                 id={index}
                height={400}
