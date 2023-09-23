@@ -22,7 +22,7 @@ const router = useRouter()
     style={{fontFamily:'Nunito'}}
     >
 
-        <div className='bg-white w-3/12 m-auto p-5 rounded '>
+        <div className='bg-white w-11/12 lg:w-3/12 m-auto p-5 rounded '>
               <p className='text-center text-lg'>Admin Login</p>
               <p className='mt-4'>Username</p>
 <input onChange={(e)=>setUsername(e.target.value)} value={username} className='border w-full  mt-1 rounded pl-2 p-1 ' placeholder='Username'/>

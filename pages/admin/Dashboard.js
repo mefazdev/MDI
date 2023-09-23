@@ -91,7 +91,7 @@ const router = useRouter()
         <div className="admin__row grid lg:grid-cols-4">
           {social.map((link, index) => {
             return (
-              <div key={index} className="w-fit">
+              <div key={index} className="w-fit m-auto">
                 <iframe
                   src={link.data().link}
                   style={{ border: "none", overflow: "hidden" }}
