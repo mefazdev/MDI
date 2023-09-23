@@ -7,14 +7,16 @@ export default function Admin() {
 const router = useRouter()
     const [username,setUsername]  = useState('')
     const [password,setPasword] = useState('')
-
+const [waiting,setWaiting] = useState(false)
     const signIn = async (e) => {
+      setWaiting(true)
         e.preventDefault();
         await signInWithEmailAndPassword(auth, username, password);
          
         router.push({
           pathname: "/admin/Dashboard",
         });
+        setWaiting(false)
       };
    
   return (
@@ -29,7 +31,7 @@ const router = useRouter()
 <p className='mt-4'>Password</p>
 <input onChange={(e)=>setPasword(e.target.value) } value={password} className='border w-full  mt-1 rounded pl-2 p-1 ' placeholder='Password' type='passwod'/>
        
-       <button onClick={signIn} className='bg-cyan-800 p-2  px-5 w-full text-white  rounded mt-3'>Login</button>
+       <button onClick={signIn} className='bg-cyan-800 p-2  px-5 w-full text-white  rounded mt-3'>{waiting ? 'Login...' : 'Login'}</button>
         </div>
     </div> 
   

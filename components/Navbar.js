@@ -50,7 +50,7 @@ export default function Navbar() {
                 <Image src={logo} />
               </Link>
             </div>
-            <p className="ml-3 text-2xl font-bold">مدار الدعوة الاسلامية</p>
+            <p className="ml-3 text-lg lg:text-2xl font-bold">مدار الدعوة الاسلامية</p>
           </div>
 
           <div className="w-full lg:col-span-2   xl:col-span-1">
