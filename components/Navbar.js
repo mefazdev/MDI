@@ -41,7 +41,7 @@ export default function Navbar() {
     <div className="navbar  border   text-cyan-900">
       <div className="nav__content p-2 pl-5 md:pl-0 m-auto md:w-11/12">
         <div className="nav__container  grid grid-cols-3 lg:grid-cols-3  xl:grid-cols-2 ">
-          <div className="flex items-center  w-full col-span-2 lg:col-span-1">
+        <div className="flex items-center  w-full col-span-2 lg:col-span-1">
             <div
               className="log  h-9 w-9 lg:w-12 lg:h-12"
               style={{ cursor: "pointer" }}
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <Image src={logo} />
               </Link>
             </div>
-            <p className="ml-3 text-lg lg:text-2xl font-bold">مدار الدعوة الاسلامية</p>
+            {/* <p className="ml-3 text-lg lg:text-2xl font-bold">مدار الدعوة الاسلامية</p> */}
           </div>
 
           <div className="w-full lg:col-span-2   xl:col-span-1">

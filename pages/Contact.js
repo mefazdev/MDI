@@ -9,7 +9,7 @@ export default function Contact() {
     <div>
         <Navbar/>
 
-        <div className='bg-cyan-900 h-52 md:h-72 pt-5'>
+        <div className='bg-cyan-900 h-52 md:h-72 pt-12'>
            <div className='px-4 md:px-0 md:w-11/12 m-auto'>
 
            <p className='text-gray-100'>Home / Contact</p>

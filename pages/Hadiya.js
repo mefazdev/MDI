@@ -19,23 +19,23 @@ export default function Hadiya() {
     <div>
       <Navbar />
 
-      <div className="bg-cyan-900 h-52 md:h-72 pt-5">
+      <div className="bg-cyan-900 pb-16 md:h-72 pt-20 ">
         <div className="px-4 md:px-0 md:w-11/12 m-auto">
           <p className="text-gray-100">Home / Hadiya Academy</p>
-          <h1 className="text-center text-3xl md:text-4xl text-white pt-10 md:pt-16 font-bold   ">
+          <h1 className="text-center text-xl lg:text-3xl md:text-4xl text-white pt-10 md:pt-16 font-bold   ">
             WOMENS ARTS & HADIYA ACADEMY
           </h1>
         </div>
       </div>
 
       <div className="content pt-7 md:pt-16 pb-7 md:pb-32">
-        <div className="px-4 md:px-0 md:w-11/12 m-auto bg-white p-1  grid lg:grid-cols-3  gap-6 ">
+        <div className="px-4 md:px-0 md:w-11/12 m-auto bg-whit p-1  grid lg:grid-cols-3  gap-6 ">
           <div className="lg:col-span-2 ">
-            <h1 className="text-2xl text-cyan-900">
+            <h1 className=" text-xl lg:text-2xl text-cyan-900">
               Womens Arts & Hadiya Academy
             </h1>
 
-            <p className="mt-4">
+            <p className=" mt-2 lg:mt-4">
               MDI adds another golden feather to girls education with its
               exemplary academic performance and amazing features. Hadiya is a
               specially designed curriculum for women, who completed their class

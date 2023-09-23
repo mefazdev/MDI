@@ -6,7 +6,7 @@ import Carousel from "react-material-ui-carousel";
 // import garden from '../assets/img/garden.jpeg'
 export default function MainBanner() {
   return (
-    <div >
+    <div className="pt-12" >
 
       <div className="bg-cyan-800  py-24  lg:py-36   w-full justify-center">
 

@@ -10,15 +10,7 @@
     font-family: 'Nunito', sans-serif;
     /* background-color: black   */
   }
-  .navbar p{
-    cursor: pointer;
-  }
-  .navbar h6{
-    cursor: pointer;
-  }
-  .navbar li{
-    cursor: pointer;
-  }
+ 
   .nav__content {
     /* border: solid blue; */
     /* display: flex; */
@@ -89,10 +81,7 @@
       margin-left: 2px;
     }
     @media only screen and (max-width: 800px) {
-      .navbar{
-        padding-bottom: 10px;
-        
-      }
+       
       .logo h3 {
     
       
