@@ -3,6 +3,7 @@ import "@/styles/navbar.css";
 import "@/styles/home.css";
 import "@/styles/footer.css";
 import "@/styles/pages.css";
+import "@/styles/admin.css";
 import Head from "next/head";
 
 export default function App({ Component, pageProps }) {

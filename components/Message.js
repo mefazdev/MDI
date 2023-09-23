@@ -1,21 +1,25 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import founder from "../assets/images/founder.JPG";
 import Image from "next/image";
+import { QueryOrderByConstraint, collection, getDocs, query } from "firebase/firestore";
+import { db } from "@/firebase";
 export default function Message() {
+
+  
   return (
     <div className="bg-slate-100  pt-10 lg:pt-16 pb-8 lg:pb-16   py-4   ">
       <div className=" m-auto px-4 md:px-0 md:w-11/12 ">
         <div className="home__about__head "></div>
         <div className="home__about__content grid grid-cols-1 gap-5 lg:gap-10 lg:grid-cols-3">
-          <div className="border-8 border-cyan-800">
-            <div className="message__img border-2 w-full  h-56 lg:h-full">
+          <div className="border-8 border-cyan-800  ">
+            <div className="message__img border-2  h-72 w-full lg:h-96  ">
               {/* <Image src={founder} className='border-2 border-white ' /> */}
             </div>
           </div>
 
           <div className="home__about__content__right lg:col-span-2">
-            <h3 className="text-2xl">Founder&apos;s Message</h3>
+            <h3 className="text-2xl lg:mt-10">Founder&apos;s Message</h3>
             <p className="mt-2  ">
               MDI (Madaru Da&apos;wathil Islamiyya), an Islamic institution, has
               been operating in the eastern part of Nilambur sub-district in the

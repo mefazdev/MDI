@@ -50,6 +50,14 @@ export default function Instituions() {
             </div>
           </div>
         </Link>
+        <Link href="/Homecare">
+          <div className="care__box hover:scale-105 transform transition-transform duration-300 ease-in-out">
+            <div className="prgm__row__caption flex justify-between px-2">
+              <h3>Home Care</h3>
+              <p className='text-gray-300 text-sm'>Know More</p>
+            </div>
+          </div>
+        </Link>
        </div>
     </div>
   </div>

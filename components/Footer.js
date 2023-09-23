@@ -32,27 +32,34 @@ export default function Footer() {
         </div>
 
         <div className="footer__item">
-        <Link href="/">
-            <p>Yotube</p>
-          </Link>
+        
           <Link href="/Photos">
             <p>Photo Gallery</p>
           </Link>
-          <Link href="/School">
-            <p>Public School</p>
+          <Link href="/Videos">
+            <p>Video Gallery</p>
           </Link>
           <Link href="/Orphanage">
             <p>Womens Orphanage</p>
           </Link>
+          <Link href="/School">
+            <p>English School</p>
+          </Link>
+
         </div>
         <div className="footer__item">
         <Link href="/Hadiya">
             <p>Hadiya Academy</p>
           </Link>
-          <Link href="/Zahrath">
-            <p>Zahra Park</p>
+          <Link href="/Hadiya">
+            <p>Womens Arts</p>
           </Link>
-          
+          <Link href="/Zahrath">
+            <p>Zahra Preschool</p>
+          </Link>
+          <Link href="/Homecare">
+            <p>Home Care</p>
+          </Link>
         </div>
         <div id="footer__adress" className="footer__item">
           

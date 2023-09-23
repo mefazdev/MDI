@@ -24,7 +24,7 @@ export default function Home() {
 <Instituions/>
 
 
-<Counting/>
+{/* <Counting/> */}
 
 <News/>
 

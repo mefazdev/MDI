@@ -36,7 +36,8 @@
     /* border: solid green; */
     justify-content: space-between;
     /* font-size: 16px; */
-    font-weight: 500;
+    font-weight: 600;
+   letter-spacing: 1px;
     /* width: 50%; */
     /* max-width: 50%; */
   }

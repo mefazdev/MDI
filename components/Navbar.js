@@ -38,10 +38,10 @@ export default function Navbar() {
     setMedia(!media);
   };
   return (
-    <div className="navba  border   text-cyan-900">
+    <div className="navbar  border   text-cyan-900">
       <div className="nav__content p-2 pl-5 md:pl-0 m-auto md:w-11/12">
-        <div className="nav__container grid grid-cols-3 xl:grid-cols-2 ">
-          <div className="">
+        <div className="nav__container  grid grid-cols-3 lg:grid-cols-3  xl:grid-cols-2 ">
+          <div className="flex items-center  w-full col-span-2 lg:col-span-1">
             <div
               className="log  h-9 w-9 lg:w-12 lg:h-12"
               style={{ cursor: "pointer" }}
@@ -50,9 +50,10 @@ export default function Navbar() {
                 <Image src={logo} />
               </Link>
             </div>
+            <p className="ml-3 text-2xl font-bold">مدار الدعوة الاسلامية</p>
           </div>
 
-          <div className="w-full col-span-2 xl:col-span-1">
+          <div className="w-full lg:col-span-2   xl:col-span-1">
             <div className="nav__item__row hidden lg:flex    justify-between">
               <span className="flex">
                 <Link href="/">
@@ -71,7 +72,8 @@ export default function Navbar() {
                 <ArrowDropDownIcon id="nav__icon" />
                 <ul className="dropdown-menu absolute hidden pt-2   group-hover:block  ">
                   <span className="development__head cursor-pointer group">
-                    <Link href="/School">
+                   
+                  <Link href="/Hadiya">
                       <div
                         className={
                           router.pathname == "/Photos"
@@ -80,24 +82,10 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          MDI Public School
+                       WOMENS ARTS & HADIYA ACADEMY 
                         </li>
                       </div>
                     </Link>
-                    <Link href="/Hadiya">
-                      <div
-                        className={
-                          router.pathname == "/Photos"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
-                        }
-                      >
-                        <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          Hadiya Academy
-                        </li>
-                      </div>
-                    </Link>
-
                     <Link href="/Orphanage">
                       <div
                         className={
@@ -107,7 +95,20 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          Womens Orphanage & Destitute Home
+                          WOMENS ORPHANAGE & DISTILUTE HOME
+                        </li>
+                      </div>
+                    </Link>
+                    <Link href="/School">
+                      <div
+                        className={
+                          router.pathname == "/Photos"
+                            ? "active__dropdown py-2"
+                            : "service__group__span py-2"
+                        }
+                      >
+                        <li className=" px-4 block whitespace-no-wrap text-sm ">
+                         ENGLISH SCHOOL (CBSE)
                         </li>
                       </div>
                     </Link>
@@ -120,7 +121,36 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          Zahrathul Qur&apos;an
+                          ZAHRA PRESCHOOL
+                        </li>
+                      </div>
+                    </Link>
+                    
+
+                    
+                    <Link href="/Homecare">
+                      <div
+                        className={
+                          router.pathname == "/Homecare"
+                            ? "active__dropdown py-2"
+                            : "service__group__span py-2"
+                        }
+                      >
+                        <li className=" px-4 block whitespace-no-wrap text-sm ">
+                       HOME CARE
+                        </li>
+                      </div>
+                    </Link>
+                    <Link href="/Madrassa">
+                      <div
+                        className={
+                          router.pathname == "/Madrassa"
+                            ? "active__dropdown py-2"
+                            : "service__group__span py-2"
+                        }
+                      >
+                        <li className=" px-4 block whitespace-no-wrap text-sm ">
+                          DARUSSALAM MADRESSA
                         </li>
                       </div>
                     </Link>
@@ -134,7 +164,7 @@ export default function Navbar() {
                   <span className="development__head cursor-pointer group">
                   <a href="https://www.youtube.com/@mdikarulai714"> <div className="pt-2">
                       <li className=" px-4 block whitespace-no-wrap text-sm ">
-                        Youtube
+                       YOUTUBE
                       </li>
                     </div>
                     </a>
@@ -148,7 +178,7 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          Photos
+                          PHOTOS
                         </li>
                       </div>
                     </Link>
@@ -161,7 +191,7 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          Video Gallery
+                          ViIDEO GALLERY
                         </li>
                       </div>
                     </Link>

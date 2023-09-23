@@ -1,8 +1,19 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import React from "react";
+import React, { useState } from "react";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor-v2";
+import HowToRegOutlinedIcon from "@mui/icons-material/HowToRegOutlined";
+import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 
 export default function Orphanage() {
+  const [didViewCountUp, setState] = useState(false);
+
+  const onVisibilityChange = (isVisible) => {
+    if (isVisible) {
+      setState({ didViewCountUp: true });
+    }
+  };
   return (
     <div>
       <Navbar />
@@ -50,8 +61,52 @@ export default function Orphanage() {
             </p>
           </div>
 
-          <div className="orphan__img  h-64 lg:h-full   order-first lg:order-last "></div>
-        </div>
+          <div className="hadiya__im bg-slate-200 p-3 h-fit lg:p-10 lg:mt-10   ">
+            <div className="flex items-center">
+              <div className="h-12 w-12 rounded-full bg-white   flex justify-center    items-center">
+                <HowToRegOutlinedIcon
+                  className="text-cyan-800"
+                  style={{ fontSize: "40px" }}
+                />
+              </div>
+              <div className="ml-3 ">
+                <p className="text-cyan-800   text-xl">
+                <VisibilitySensor
+            scrollCheck={true}
+            onChange={onVisibilityChange}
+            delayedCall
+          >
+           <span className="font-bold">
+              <CountUp start={0} end={didViewCountUp ? 58 : 0} duration={2} />
+              +
+            </span>
+          </VisibilitySensor> Enrolled Students{" "}
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center mt-3 lg:mt-5">
+              <div className="h-12 w-12 rounded-full bg-white   flex justify-center    items-center">
+                <SchoolOutlinedIcon
+                  className="text-cyan-800"
+                  style={{ fontSize: "40px" }}
+                />
+              </div>
+              <div className="ml-3 ">
+                <p className="text-cyan-800   text-xl">
+                <VisibilitySensor
+            scrollCheck={true}
+            onChange={onVisibilityChange}
+            delayedCall
+          >
+           <span className="font-bold">
+              <CountUp start={0} end={didViewCountUp ? 100 : 0} duration={2} />
+              +
+            </span>
+          </VisibilitySensor> Alumni
+                </p>
+              </div>
+            </div>
+          </div>  </div>
       </div>
 
       <Footer/>

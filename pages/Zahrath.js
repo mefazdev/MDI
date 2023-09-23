@@ -19,7 +19,7 @@ export default function Zahrath() {
         <div className="px-4 md:px-0 md:w-11/12 m-auto bg-white p-1  grid lg:grid-cols-3  gap-6 ">
           <div className="lg:col-span-2 ">
             <h1 className="text-2xl text-cyan-900">
-              MDI Womens Orphanage and Distilute Home
+              ZAHRA PRESHCOOL
             </h1>
 
             <p className="mt-4">

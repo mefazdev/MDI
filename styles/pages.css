@@ -1,15 +1,26 @@
 .hadiya__img{
-    background-image: url('../assets/images//hadiya.jpg');
+    background-image: url('../assets/images/hadiya.jpg');
     background-size: cover;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
 }
 .orphan__img{
-    background-image: url('../assets/images//orphanage.jpg');
+    background-image: url('../assets/images/orphanage.jpg');
     background-size: cover;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
 }
 .zahra__img{
-    background-image: url('../assets/images//preschool.jpg');
+    background-image: url('../assets/images/preschool.jpg');
+    background-size: cover;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+}
+.care__img{
+    background-image: url('../assets/images/care.jpg');
+    background-size: cover;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+}
+
+.madrassa__img{
+    background-image: url('../assets/images/madrasa.jpg');
     background-size: cover;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
 }
