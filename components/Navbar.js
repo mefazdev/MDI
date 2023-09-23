@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useEffect, useState } from "react";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-
+import cal from '../assets/images/name-1.png'
 import ShareIcon from "@mui/icons-material/Share";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -50,9 +50,12 @@ export default function Navbar() {
                 <Image src={logo} />
               </Link>
             </div>
+            <div className=" w-28 lg:w-36 ml-2">
+              <Image src={cal} />
+            </div>
             {/* <p className="ml-3 text-lg lg:text-2xl font-bold">مدار الدعوة الاسلامية</p> */}
           </div>
-
+        
           <div className="w-full lg:col-span-2   xl:col-span-1">
             <div className="nav__item__row hidden lg:flex    justify-between">
               <span className="flex">
