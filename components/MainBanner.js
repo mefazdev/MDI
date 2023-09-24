@@ -10,7 +10,7 @@ import slide4 from "../assets/images/slide/slide-4.jpg";
 import slide5 from "../assets/images/slide/slide-5.jpg";
 import slide6 from "../assets/images/slide/slide-6.jpg";
 import slide7 from "../assets/images/slide/slide-7.jpg";
-import slide8 from "../assets/images/slide/slide-8.jpg";
+// import slide8 from "../assets/images/slide/slide-8.jpg";
 import Image from "next/image";
 
 export default function MainBanner() {
@@ -123,7 +123,7 @@ export default function MainBanner() {
 <div
           className="main__banner__box    "
           style={{
-            backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide8.src})`,
+            backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide5.src})`,
           }}
         >
           <div className="main__banner__div">
