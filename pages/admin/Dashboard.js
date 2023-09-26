@@ -113,7 +113,7 @@ const router = useRouter()
       </div>
 
       <Modal open={open}>
-        <div className="outline-none pb-16  w-4/12 bg-lime-100 m-auto mt-36 p-7 rounded">
+        <div className="outline-none pb-16 w-11/12 lg:w-4/12 bg-lime-100 m-auto mt-36 p-7 rounded">
           <CloseIcon className="float-right text-orange-600" onClick={() => setOpen(false)} />
           <div className="mt-5 ">
             <p>Past the link</p>
