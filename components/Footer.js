@@ -1,9 +1,9 @@
 import React from "react";
- 
+
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import ApartmentIcon from "@mui/icons-material/Apartment";
- 
+
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -28,11 +28,9 @@ export default function Footer() {
           <Link href="/Contact">
             <p>Contact us</p>
           </Link>
-        
         </div>
 
         <div className="footer__item">
-        
           <Link href="/Photos">
             <p>Photo Gallery</p>
           </Link>
@@ -45,10 +43,9 @@ export default function Footer() {
           <Link href="/School">
             <p>English School</p>
           </Link>
-
         </div>
         <div className="footer__item">
-        <Link href="/Hadiya">
+          <Link href="/Hadiya">
             <p>Hadiya Academy</p>
           </Link>
           <Link href="/Hadiya">
@@ -62,12 +59,10 @@ export default function Footer() {
           </Link>
         </div>
         <div id="footer__adress" className="footer__item">
-          
           <div className="flex footer__name">
             <ApartmentIcon id="footer__icon" />
             <div>
               <p>MDI KARULAI</p>
-             
 
               <h3>Krulai, Nilambur</h3>
               <h3> Malappuram Kerala</h3>
@@ -76,20 +71,35 @@ export default function Footer() {
           </div>
           <div className="flex footer__phone">
             <CallIcon id="footer__icon" />
-            <p>+91 000000000</p>
+            <p>+91 9656570068</p>
           </div>
           <div className="flex footer__phone">
             <EmailIcon id="footer__icon" />
-            <p>info@mdikarulai.org </p>
+            <p>info@mdikarulai.in </p>
           </div>
           <div className="footer__input w-fit grid grid-cols-4  gap-3">
-            <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center"><FacebookIcon/></div>
-            <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center"><InstagramIcon/></div>
-           
-            <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center"><TwitterIcon/></div>
-            <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center"><YouTubeIcon/></div>
-          
-             </div>
+            <a href="https://www.facebook.com/mdischoolkarulai?mibextid=LQQJ4d">
+              <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center">
+                <FacebookIcon />
+              </div>
+            </a>
+
+            <a
+              href="https://youtube.com/@mdikarulai714?si=8O7AhgVbFAXe0QwH
+"
+            >
+              <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center">
+                <InstagramIcon />
+              </div>
+            </a>
+            {/* <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center"><TwitterIcon/></div> */}
+
+            <a href="https://www.youtube.com/@mdikarulai714">
+              <div className="h-8 w-8 bg-white text-cyan-900   rounded-full flex justify-center items-center">
+                <YouTubeIcon />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
 

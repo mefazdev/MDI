@@ -283,7 +283,7 @@
     height: 40px;
     width: 40px;
     margin-top: 10px;
-    color: rgb(204, 119, 8);
+    /* color: rgb(204, 119, 8); */
     /* background-color: rgb(225, 174, 79); */
   }
   #social__ic:hover {
@@ -776,28 +776,31 @@
 
   .zahra__box{
     height: 250px;
-    background-image: url('../assets/images/preschool.jpg');
+    /* background-image: url('../assets/images/preschool.jpg'); */
+   
+    background-image: url('../assets/images/zahra/zahra-3.jpeg');
     position: relative;
     background-size: cover;
     background-position: center;
   }
   .school__box{
     height: 250px;
-    background-image: url('../assets/images/school.jpg');
+    background-image: url('../assets/images/school/display.JPG');
     position: relative;
     background-size: cover;
     background-position: center;
   }
   .hadiya__box{
     height: 250px;
-    background-image: url('../assets/images/hadiya.jpg');
+    /* background-image: url('../assets/images/hadiya.jpg'); */
+    background-image: url('../assets/images/hadiya/hadiya-4.jpeg');
     position: relative;
     background-size: cover;
     background-position: center;
   }
   .orphanage__box{
     height: 250px;
-    background-image: url('../assets/images/orphanage.jpg');
+    background-image: url('../assets/images/hadiya/hadiya-1.jpeg');
     position: relative;
     background-size: cover;
     background-position: center;

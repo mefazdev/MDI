@@ -143,38 +143,4 @@ export default function MainBanner() {
   );
 }
 
-{
-  /* <div className="main__banner__div ">
-            
-
-            <div className="main__head__div">
-              <span>
-              
-              <h1>مدار الدعوة الاسلامية</h1>
-           
-              </span>
-            </div>
-          </div>
-          <div className="main__banner__div">
-            
-
-            <div className="main__head__div">
-              <span>
-              
-         <h1>MDI KARULAI</h1>
-              </span>
-            </div>
-          </div>
-          <div className="main__banner__div">
-            
-
-            <div className="main__head__div">
-              <span>
-              
-              <h2>
-              Making A Bright Future
-                </h2>
-              </span>
-            </div>
-          </div> */
-}
+ 

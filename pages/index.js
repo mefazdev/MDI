@@ -7,7 +7,10 @@ import Message from "@/components/Message";
 import Navbar from "@/components/Navbar";
 import News from "@/components/News";
 import Head from "next/head";
-
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 export default function Home() {
   return (
    <div>
@@ -41,7 +44,26 @@ export default function Home() {
     
    
 <div className="content">
+  
 <MainBanner/>
+
+<div className="home__social text-cyan-900">
+          <a href="https://www.facebook.com/mdischoolkarulai?mibextid=LQQJ4d">
+            <div className="social__circle rounded-full">
+              <FacebookIcon id="social__ic" />
+            </div>
+          </a>
+
+         <a href="https://youtube.com/@mdikarulai714?si=8O7AhgVbFAXe0QwH"><div className="social__circle rounded-full">
+            <InstagramIcon id="social__ic" />
+          </div></a>
+          
+          <a href="https://www.youtube.com/@mdikarulai714">
+            <div className="social__circle rounded-full">
+              <YouTubeIcon id="social__ic" />
+            </div>
+          </a>
+        </div>
 
 <Message/>
 <About/>

@@ -76,7 +76,19 @@ export default function Navbar() {
                 <ul className="dropdown-menu absolute hidden pt-2   group-hover:block  ">
                   <span className="development__head cursor-pointer group">
                    
-                  <Link href="/Hadiya">
+                  <Link href="/Orphanage">
+                      <div
+                        className={
+                          router.pathname == "/Photos"
+                            ? "active__dropdown py-2"
+                            : "service__group__span py-2"
+                        }
+                      >
+                        <li className=" px-4 block whitespace-no-wrap text-sm ">
+                          WOMENS ORPHANAGE & DISTITUTE HOME
+                        </li>
+                      </div>
+                    </Link>   <Link href="/Hadiya">
                       <div
                         className={
                           router.pathname == "/Photos"
@@ -89,19 +101,7 @@ export default function Navbar() {
                         </li>
                       </div>
                     </Link>
-                    <Link href="/Orphanage">
-                      <div
-                        className={
-                          router.pathname == "/Photos"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
-                        }
-                      >
-                        <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          WOMENS ORPHANAGE & DISTILUTE HOME
-                        </li>
-                      </div>
-                    </Link>
+                    
                     <Link href="/School">
                       <div
                         className={
@@ -247,7 +247,7 @@ export default function Navbar() {
               <p>About</p>
             </div>
           </Link>
-          <Link href="/Programmes">
+          <Link href="/Institutions">
             <div className="collapse_row">
               <p>Institutions</p>
             </div>
@@ -258,6 +258,7 @@ export default function Navbar() {
               <p>Media</p>
               <ArrowRightIcon id="collapse__arrow" />
             </div>
+            
 
             {media ? (
               <div className="collapse__collapse">
@@ -289,6 +290,11 @@ export default function Navbar() {
           <Link href="/Contact">
             <div className="collapse_row">
               <p>Contact us</p>
+            </div>
+          </Link>
+          <Link href="/Donate">
+            <div className="collapse_row  ">
+              <p className="text-green-500">Donate</p>
             </div>
           </Link>
         </div>

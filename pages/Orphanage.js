@@ -22,7 +22,7 @@ export default function Orphanage() {
         <div className="px-4 md:px-0 md:w-11/12 m-auto">
           <p className="text-gray-100">Home / Womens Orphanage</p>
           <h1 className="text-center text-xl lg:text-3xl md:text-4xl text-white pt-10 md:pt-16 font-bold   ">
-            MDI WOMENS ORPHANAGE & DESTILUTE HOME{" "}
+            MDI WOMENS ORPHANAGE & DESTITUTE HOME{" "}
           </h1>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Orphanage() {
         <div className="px-4 md:px-0 md:w-11/12 m-auto  grid lg:grid-cols-3  gap-6 ">
           <div className="lg:col-span-2 ">
             <h1 className=" text-lg lg:text-2xl text-cyan-900">
-              MDI Womens Orphanage & Distilute Home
+              MDI Womens Orphanage & Distitute Home
             </h1>
 
             <p className=" mt-2 lg:mt-4">
