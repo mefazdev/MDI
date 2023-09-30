@@ -5,7 +5,7 @@ import slide2 from "../assets/images/zahra/zahra-3.jpeg";
 import slide3 from "../assets/images/zahra/zahra-6.jpeg";
 import slide4 from "../assets/images/zahra/zahra-2.jpeg";
  
-import slide5 from "../assets/images/school/slide-2.jpg";
+ 
 
 export default function ZahraBanner() {
   return (

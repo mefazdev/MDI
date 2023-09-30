@@ -1,10 +1,10 @@
 import Carousel from "react-material-ui-carousel";
 
-import slide2 from "../assets/images/school/slide-2.jpg";
+import slide2 from "../assets/images/school/slide-2.JPG";
 
-import slide3 from "../assets/images/school/slide-3.jpg";
-import slide4 from "../assets/images/school/slide-4.jpg";
-import slide5 from "../assets/images/school/slide-5.jpg";
+import slide3 from "../assets/images/school/slide-3.JPG";
+import slide4 from "../assets/images/school/slide-4.JPG";
+import slide5 from "../assets/images/school/slide-5.JPG";
 
 export default function SchoolBanner() {
   return (
