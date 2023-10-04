@@ -17,6 +17,7 @@ export default function HadiyaBanner() {
         indicators={false}
         animation="slide"
         stopAutoPlayOnHover={false}
+        
         // className="h-full"
       >
         <div

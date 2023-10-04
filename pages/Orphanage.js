@@ -14,6 +14,7 @@ export default function Orphanage() {
   const [didViewCountUp, setState] = useState(false);
   const [more, setMore] = useState(false);
 
+
   const onVisibilityChange = (isVisible) => {
     if (isVisible) {
       setState({ didViewCountUp: true });
@@ -44,7 +45,7 @@ export default function Orphanage() {
 
               <p className=" mt-2 lg:mt-4">
                 {" "}
-                Presently, MDI Destitute Home provides comfort to 95 girls and
+                Presently, MDI Destitute Home provides comfort to 58 girls and
                 women those who are destitute and have been abandoned or
                 exploited by society, community, family, relatives etc, where
                 they are given all the basic necessities along with eliminating
@@ -69,7 +70,7 @@ export default function Orphanage() {
                 rather than money.
               </p>
             </div>
-            <div className="hadiya__im bg-slate-200 p-3 h-fit lg:p-10 lg:mt-10   ">
+            <div className="  bg-slate-200 p-3 h-fit lg:p-10 lg:mt-10   ">
               <div className="flex items-center">
                 <div className="h-12 w-12 rounded-full bg-white   flex justify-center    items-center">
                   <HowToRegOutlinedIcon
@@ -114,7 +115,7 @@ export default function Orphanage() {
                       <span className="font-bold">
                         <CountUp
                           start={0}
-                          end={didViewCountUp ? 100 : 0}
+                          end={didViewCountUp ? 250 : 0}
                           duration={2}
                         />
                         +

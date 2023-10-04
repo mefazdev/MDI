@@ -26,16 +26,14 @@ import img21 from "../../assets/images/events/schoolAlumni/21.jpeg";
 import img22 from "../../assets/images/events/schoolAlumni/22.jpeg";
 import img23 from "../../assets/images/events/schoolAlumni/23.jpeg";
 import img24 from "../../assets/images/events/schoolAlumni/24.jpeg";
- 
 
 import Image from "next/image";
 export default function Events() {
   const [more, setMore] = useState(false);
 
   const imgs = [
-    
     img1,
-    
+
     img2,
 
     img3,
@@ -49,11 +47,17 @@ export default function Events() {
     img11,
     img12,
     img13,
-    img14, 
+    img14,
     img15,
     img16,
-    img17, img18, img19, img20, img21, img22, img23,img24
-    
+    img17,
+    img18,
+    img19,
+    img20,
+    img21,
+    img22,
+    img23,
+    img24,
   ];
   return (
     <div>
@@ -74,10 +78,16 @@ export default function Events() {
             <h3 className="text-cyan-800 text-xl font-bold">
               Reminisce&apos;23 School grand alumni meet
             </h3>
-            <p> Batches from 2007 to 2022 who completed their studies from
-                    MDI English Medium School met on February 18, 2023 at the
-                    reminisce&apos;3 school grand alumni meet organized by MDI
-                    management</p>
+            <p>
+              {" "}
+              Batches from 2007 to 2022 who completed their studies from MDI
+              English Medium School met on February 18, 2023 at the
+              reminisce&apos;3 school grand alumni meet organized by MDI
+              management. Reminisce&apos;23 was a colorful gathering of students and
+              teachers. The students honored the usthad&apos;s and teachers during
+              this period and also shared their experiences and memories about
+              the school.
+            </p>
           </div>
 
           <div

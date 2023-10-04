@@ -29,7 +29,7 @@ export default function OrphanageBanner() {
           }}
         >
           <p className="text-center text-white text-4xl font-bold">
-            MDI ENGLISH SCHOOL
+          MDI Womens Orphanage & Distitute Home
           </p>
         </div>
         <div
@@ -42,7 +42,7 @@ export default function OrphanageBanner() {
           }}
         >
           <p className="text-center text-white text-4xl font-bold">
-            MDI ENGLISH SCHOOL
+          MDI Womens Orphanage & Distitute Home
           </p>
         </div>
         <div
@@ -55,7 +55,7 @@ export default function OrphanageBanner() {
           }}
         >
           <p className="text-center text-white text-4xl font-bold">
-            MDI CBSE SCHOOL
+          MDI Womens Orphanage & Distitute Home
           </p>
         </div>
 
