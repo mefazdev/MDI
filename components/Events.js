@@ -1,6 +1,5 @@
 import Link from "next/link";
-import React from "react";
-import img3 from "../assets/images/orphanage/orph-3.JPG";
+import React from "react"; 
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import eve1 from "../assets/images/events/18th/15.jpg";
 import eve2 from "../assets/images/events/jalaliyya/1.jpeg";

@@ -6,9 +6,9 @@ import VisibilitySensor from "react-visibility-sensor-v2";
 import HowToRegOutlinedIcon from "@mui/icons-material/HowToRegOutlined";
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 import OrphanageBanner from "@/components/OrphanageBanner";
-import img1 from "../assets/images/orphanage/orph-1.JPG";
-import img2 from "../assets/images/orphanage/orph-2.JPG";
-import img3 from "../assets/images/orphanage/orph-3.JPG";
+import img1 from "../assets/images/orphanage/orph-1.jpg";
+import img2 from "../assets/images/orphanage/orph-2.jpg";
+import img3 from "../assets/images/orphanage/orph-3.jpg";
 
 export default function Orphanage() {
   const [didViewCountUp, setState] = useState(false);
