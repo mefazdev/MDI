@@ -119,147 +119,20 @@
     color: #fff;
   }
    
-  .h__prgm {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    /* border: saddlebrown  solid; */
-    margin-top: 50px;
+ 
   
-      }
+ 
+  .h__prgm h3{
+    font-family: 'Josefin Sans', sans-serif;
+  }
   
  
   
-  
- 
-  .prgm__content__main__left {
-    /* border: solid red; */
-    /* background-image: url("../assets/images/campus.jpg"); */
-    min-height: 250px;
-    background-repeat: no-repeat;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .prgm__content__main__left__caption {
-    /* border: solid red; */
-    height: 40px;
-    width: 100%;
-  
-    max-width: 200px;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.623);
-  }
-  .prgm__content__main__left__caption h3 {
-    color: #fff;
-  
-    margin-top: 5px;
-    margin-left: 4px;
-    /* font-family: "Poppins", sans-serif; */
-  }
-  
-  .prgm__content__main__right h4 {
-    /* font-family: "Poppins", sans-serif; */
-    /* font-weight: 600;         */
-    font-size: 20px;
-    color: rgb(73, 68, 68);
-  }
-  .prgm__content__main__right p {
-    /* font-family: "Poppins", sans-serif; */
-    /* font-weight: 600;         */
-    /* font-size: 20px; */
-    color: rgb(88, 85, 85);
-  }
-  .prgm__content__main__right {
-    padding-right: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .prgm__content__main__right a {
-    margin: auto;
-  }
-  .prgm__content__main__right button {
-    margin: auto;
-    width: 100%;
-    max-width: 100px;
-    padding: 5px;
-    color: rgb(29, 27, 27);
-    border-radius: 2px;
-    /* font-family: "Poppins", sans-serif;   */
-    font-size: 14px;
-    background-color: rgb(201, 202, 118);
-    margin-top: 15px;
-  }
-  .prgm__content__main__right button:hover {
-    transform: scale(1.011);
-  }
-  
-  .prgm__content__row__box {
-    height: 300px;
-    position: relative;
-  }
-  
-  .prgm__row__caption {
-    height: 40px;
-    width: 100%;
-    align-items: center;
-    display: flex;
-  
-    max-width: 100%;
-    position: absolute;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.726);
-  }
-  .prgm__row__caption h3 {
-    /* font-family: "Poppins", sans-serif; */
-    color: #fff;
-    /* margin-left: 5px; */
-  }
-  .prgm__content__row__boxes {
-    background-size: cover;
-    background-position: center;
-    height: 230px;
-    position: relative;
-  }
-  
-  .prgm__content__row__boxes:hover {
-    opacity: 1;
-    transform: scale(1.01);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  }
-  
-  /* <<<<<<<<<< GET INVOLV >>>>>>>>>>> */
-  
-  .hm__involve {
-    padding-bottom: 90px;
-  
-    /* background: transparent
-      linear-gradient(369deg, rgba(228, 205, 105, 0.196) 0%, #eadb3813 100%) 0% 0%
-      no-repeat padding-box; */
-  
-    background: transparent
-      linear-gradient(369deg, rgba(201, 202, 118, 0.075) 0%, #aed30932 100%) 0% 0%
-      no-repeat padding-box;
-  }
-  
-  @media only screen and (min-width: 800px) {
-    .hm__involve__contetn {
-      max-width: 87%;
-    }
-  }
-  
-  .hm__involve__contetn {
-    /* border: saddlebrown solid; */
-    margin: auto;
-    /* height: 400px; */
-  }
-  .hm__involve__head {
-    max-width: 200px;
-    /* border: saddlebrown solid; */
-  }
    
+  
+ 
+  
+  
    
   
  
@@ -279,7 +152,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(192, 192, 192, 0.966);
+    /* background-color: rgba(192, 192, 192, 0.966); */
     height: 40px;
     width: 40px;
     margin-top: 10px;
@@ -527,62 +400,13 @@
       margin: auto;
       margin-top: 10px;
     }
-    .h__prgm {
-      padding-top: 0px;
-      padding-bottom: 10px;
   
-      margin-top: 20px;
-    }
-    .h__prgm__content {
-      padding: 15px;
-    }
+    
+     
   
-    .prgm__content__row__box {
-      height: 200px;
-    }
+     
   
-    /* .prgm__row__caption{
-      height: 40px;
-      width: 100%;
-    align-items: center;
-    display: flex;
-      max-width: 200px;
-      position: absolute; bottom: 0px; 
-      background-color:rgba(0, 0, 0, 0.623) ;
-  } */
-  
-    .prgm__content__row__box__two {
-      height: 200px;
-    }
-    .prgm__content__row__box__three {
-      height: 200px;
-    }
-  
-    .prgm__content__main__right button {
-      margin: auto;
-      margin-top: 10px;
-      max-width: 100%;
-    }
-    .prgm__content__main__right {
-      padding-right: 0px;
-    }
-  
-    .hm__involve {
-      padding: 15px;
-      padding-bottom: 30px;
-    }
-    .hm__involve__box {
-      /* height: 250px; */
-    }
-  
-    /* #involve__icon{
-      font-size: 100px;
-      color: rgb(41, 41, 39);
-      margin: auto;
-      box-shadow: 4px 5px 5px 2px rgb(184, 185, 106);
-      border-radius: 14px;
-  } */
-  
+   
     .camp__ad {
       padding: 5px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -775,7 +599,7 @@
 
 
   .zahra__box{
-    height: 250px;
+    /* height: 250px; */
     /* background-image: url('../assets/images/preschool.jpg'); */
    
     background-image: url('../assets/images/zahra/zahra-3.jpeg');
@@ -784,14 +608,14 @@
     background-position: center;
   }
   .school__box{
-    height: 250px;
+    /* height: 250px; */
     background-image: url('../assets/images/school/display.JPG');
     position: relative;
     background-size: cover;
     background-position: center;
   }
   .hadiya__box{
-    height: 250px;
+    
     /* background-image: url('../assets/images/hadiya.jpg'); */
     background-image: url('../assets/images/hadiya/hadiya-4.jpeg');
     position: relative;
@@ -799,14 +623,14 @@
     background-position: center;
   }
   .orphanage__box{
-    height: 250px;
-    background-image: url('../assets/images/hadiya/hadiya-1.jpeg');
+  
+    background-image: url('../assets/images/orph.jpeg');
     position: relative;
     background-size: cover;
     background-position: center;
   }
   .care__box{
-    height: 250px;
+  
     background-image: url('../assets/images/care.jpg');
     position: relative;
     background-size: cover;

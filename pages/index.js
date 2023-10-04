@@ -11,14 +11,15 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import Events from "@/components/Events";
 export default function Home() {
   return (
-   <div>
-    <Head>
+    <div>
+      <Head>
         <title>MDI KARULAI</title>
         <meta
           name="description"
-          content=" MDI (registered as Madaru Da&apos;awathil Islamiyya under the Societies
+          content=" MDI (registered as Madaru Da'awathil Islamiyya under the Societies
             Registration Act of 1860)is a unique religious ,socio cultural,
             educational and charitable organization with a laudable mission and
             vision..MDI situated in Karulai besides the reserve forest area of
@@ -34,56 +35,45 @@ export default function Home() {
         />
         <meta property="og:title" content="MDI Karulai" key="title" />
         <link rel="canonical" href="https://www.mdikarulai.in" />
-        <link rel="icon" 
-        href="/favicon.ico" 
-    
-        />
-     
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar/>
-    
-   
-<div className="content">
-  
-<MainBanner/>
+      <Navbar />
 
-<div className="home__social text-cyan-900">
+      <div className="content">
+        <MainBanner />
+
+        <div className="home__social text-cyan-90 text-white">
           <a href="https://www.facebook.com/mdischoolkarulai?mibextid=LQQJ4d">
-            <div className="social__circle rounded-full">
+            <div className=" social__circle bg-yellow-600 rounded-full">
               <FacebookIcon id="social__ic" />
             </div>
           </a>
 
-         <a href="https://youtube.com/@mdikarulai714?si=8O7AhgVbFAXe0QwH"><div className="social__circle rounded-full">
-            <InstagramIcon id="social__ic" />
-          </div></a>
-          
+          <a href="https://youtube.com/@mdikarulai714?si=8O7AhgVbFAXe0QwH">
+            <div className="social__circle bg-yellow-600 rounded-full">
+              <InstagramIcon id="social__ic" />
+            </div>
+          </a>
+
           <a href="https://www.youtube.com/@mdikarulai714">
-            <div className="social__circle rounded-full">
+            <div className="social__circle bg-yellow-600 rounded-full">
               <YouTubeIcon id="social__ic" />
             </div>
           </a>
         </div>
 
-<Message/>
-<About/>
+        <Message />
+        <About />
 
+        <Instituions />
 
+<Events/>
+        {/* <Counting/> */}
 
-<Instituions/>
+        <News />
+      </div>
 
-
-{/* <Counting/> */}
-
-<News/>
-
-</div>
-   
- <Footer/>
-   </div>
-      
-
-      
-   
-  )
+      <Footer />
+    </div>
+  );
 }

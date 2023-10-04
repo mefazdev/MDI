@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useEffect, useState } from "react";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-import cal from '../assets/images/name-1.png'
+import cal from "../assets/images/name-1.png";
 import ShareIcon from "@mui/icons-material/Share";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -40,8 +40,8 @@ export default function Navbar() {
   return (
     <div className="navbar  border   text-cyan-900">
       <div className="nav__content p-2 pl-5 md:pl-0 m-auto md:w-11/12">
-        <div className="nav__container  grid grid-cols-3 lg:grid-cols-3  xl:grid-cols-2 ">
-        <div className="flex items-center  w-full col-span-2 lg:col-span-1">
+        <div className="nav__container  grid grid-cols-3 lg:grid-cols-3   ">
+          <div className="flex items-center  w-full col-span-2 lg:col-span-1">
             <div
               className="log  h-9 w-9 lg:w-12 lg:h-12"
               style={{ cursor: "pointer" }}
@@ -55,9 +55,9 @@ export default function Navbar() {
             </div>
             {/* <p className="ml-3 text-lg lg:text-2xl font-bold">مدار الدعوة الاسلامية</p> */}
           </div>
-        
-          <div className="w-full lg:col-span-2   xl:col-span-1">
-            <div className="nav__item__row hidden lg:flex    justify-between">
+
+          <div className="w-full lg:col-span-2   ">
+            <div className="nav__item__row hidden xl:flex    justify-between">
               <span className="flex">
                 <Link href="/">
                   <h6>HOME</h6>
@@ -75,8 +75,7 @@ export default function Navbar() {
                 <ArrowDropDownIcon id="nav__icon" />
                 <ul className="dropdown-menu absolute hidden pt-2   group-hover:block  ">
                   <span className="development__head cursor-pointer group">
-                   
-                  <Link href="/Orphanage">
+                    <Link href="/Orphanage">
                       <div
                         className={
                           router.pathname == "/Photos"
@@ -88,7 +87,8 @@ export default function Navbar() {
                           WOMENS ORPHANAGE & DISTITUTE HOME
                         </li>
                       </div>
-                    </Link>   <Link href="/Hadiya">
+                    </Link>{" "}
+                    <Link href="/Hadiya">
                       <div
                         className={
                           router.pathname == "/Photos"
@@ -97,11 +97,10 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                       WOMENS ARTS & HADIYA ACADEMY 
+                          WOMENS ARTS & HADIYA ACADEMY
                         </li>
                       </div>
                     </Link>
-                    
                     <Link href="/School">
                       <div
                         className={
@@ -111,7 +110,7 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                         ENGLISH SCHOOL (CBSE)
+                          ENGLISH SCHOOL (CBSE)
                         </li>
                       </div>
                     </Link>
@@ -128,9 +127,6 @@ export default function Navbar() {
                         </li>
                       </div>
                     </Link>
-                    
-
-                    
                     <Link href="/Homecare">
                       <div
                         className={
@@ -140,7 +136,7 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                       HOME CARE
+                          HOME CARE
                         </li>
                       </div>
                     </Link>
@@ -160,7 +156,7 @@ export default function Navbar() {
                   </span>
                 </ul>
               </span>
-              <span className="flex nav__item__span group cursor-pointer">
+              {/* <span className="flex nav__item__span group cursor-pointer">
                 <h6>MEDIA</h6>
                 <ArrowDropDownIcon id="nav__icon" />
                 <ul className="dropdown-menu absolute hidden   group-hover:block  ">
@@ -200,34 +196,43 @@ export default function Navbar() {
                     </Link>
                   </span>
                 </ul>
+              </span> */}
+              <span className="flex">
+                <Link href="/">
+                  <h6>DOWNLOADS</h6>
+                </Link>
               </span>
 
+              <span className="flex">
+                <Link href="/Events">
+                  <h6>EVENTS</h6>
+                </Link>
+              </span>
               <span className="flex">
                 <Link href="/Contact">
                   <h6>CONTACT US</h6>
                 </Link>
               </span>
 
-              <Link href={'/Donate'}><button className="bg-cyan-800 rounded p-2 px-3 text-white">
-                DONATE
-                <FavoriteIcon className="ml-1" />
-              </button></Link>
-              
+              <Link href={"/Donate"}>
+                <button className="bg-yellow-600   rounded p-1.5 px-3 text-white">
+                  DONATE
+                  <FavoriteIcon className="ml-1" />
+                </button>
+              </Link>
             </div>
 
-            <div className="float-right lg:hidden">
-               
-            <Link href={'/Donate'}><button className=" mr-4  p-0.5 text-cyan-800 px-3 border border-cyan-900 ">
-               Give
-                 
-              </button></Link>
-  
-  <MenuIcon  style={{fontSize:'40px'}}
+            <div className="float-right xl:hidden">
+              <Link href={"/Donate"}>
+                <button className=" mr-4  p-0.5 text-cyan-800 px-3 border border-cyan-900 ">
+                  Give
+                </button>
+              </Link>
+
+              <MenuIcon
+                style={{ fontSize: "40px" }}
                 onClick={() => setCollapse(!collapse)}
-                
               />
-  
-            
             </div>
           </div>
         </div>
@@ -252,8 +257,13 @@ export default function Navbar() {
               <p>Institutions</p>
             </div>
           </Link>
+          <Link href="/">
+            <div className="collapse_row">
+              <p>Downloads</p>
+            </div>
+          </Link>
 
-          <div className="collapse_row flex">
+          {/* <div className="collapse_row flex">
             <div className="flex" onClick={() => controlMedia()}>
               <p>Media</p>
               <ArrowRightIcon id="collapse__arrow" />
@@ -285,8 +295,12 @@ export default function Navbar() {
             ) : (
               ""
             )}
-          </div>
-
+          </div> */}
+          <Link href="/Events">
+            <div className="collapse_row">
+              <p>Events</p>
+            </div>
+          </Link>
           <Link href="/Contact">
             <div className="collapse_row">
               <p>Contact us</p>
