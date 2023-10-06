@@ -50,11 +50,11 @@ export default function Zahrath() {
             </p>
           </div>
 
-          <div className="zahra__img  h-64    order-first lg:order-last "></div>
+          <div className="zahra__img hidden lg:grid  h-64    order-first lg:order-last "></div>
         </div>
 
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mt-24">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6  mt-10 lg:mt-24">
         {imgs?.map((d, i) => {
               if (!more) {
                 if (i < 6) {

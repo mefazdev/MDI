@@ -11,7 +11,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
  
 
   
@@ -20,6 +22,12 @@ module.exports = {
   
 }
  
+// module.exports = {
+ 
+//   plugins: [
+//     require('tailwindcss-animated')
+//   ],
+// }
  
 
 

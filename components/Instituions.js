@@ -21,7 +21,7 @@ export default function Instituions() {
                 <p className="mt-1">
                   Presently, MDI Destitute Home provides comfort to 95 girls and
                   women those who are destitute and have been abandoned or
-                  exploited by society, community, family, relatives etc 
+                  exploited by society, community, family, relatives etc
                 </p>
               </div>
 
@@ -65,7 +65,7 @@ export default function Instituions() {
                 <p className="mt-1">
                   MDI Public School adds another golden feather to the
                   educational cap of Nilambur constituency with its exemplary
-                  academic performance and amazing results. 
+                  academic performance and amazing results.
                 </p>
               </div>
 
@@ -99,14 +99,19 @@ export default function Instituions() {
           </Link>
         </div>
         <div className="bg-zinc-100 mt-10  px-8 pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-          <Link href="/Homecare">
+          <Link href="/Madarssa">
             <div>
-              <div className="care__box h-52 -mt-10"></div>
+              <div className="madrassa__box h-52 -mt-10"></div>
               <div className="mt-7">
-                <h3 className="text-cyan-900 font-bold text-lg">Masjids & Madrasas</h3>
+                <h3 className="text-cyan-900 font-bold text-lg">
+                  Masjids & Madrasas
+                </h3>
 
                 <p className="mt-1">
-                  {/* Zahratul Qur'an Preschool is constituted with an aim of helping future generation mould their lives according to Islamic values enhanced through child friendly mentoring.  */}
+                  We have already constructed number of Masjids in the different
+                  area of Karulai. We also started Madrassas alongside of
+                  Masjids to have an everlasting solution for the spiritual and
+                  moral education. 
                 </p>
               </div>
 
@@ -134,7 +139,6 @@ export default function Instituions() {
             </div>
           </Link>
         </div>
-        
 
         {/* <Link href="/Orphanage">
             <div className="orphanage__box hover:scale-105 transform transition-transform duration-300 ease-in-out">

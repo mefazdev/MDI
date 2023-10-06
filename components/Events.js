@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react"; 
+import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import eve1 from "../assets/images/events/18th/15.jpg";
 import eve2 from "../assets/images/events/jalaliyya/1.jpeg";
@@ -8,7 +8,7 @@ import eve4 from "../assets/images/events/schoolAlumni/1.jpeg";
 export default function Events() {
   return (
     <div className="h__prgm  mb-24   mt-10 lg:mt-20  md:px-0 md:w-11/12 m-auto  ">
-      <h3 className="text-cyan-900 font-extrabold  text-2xl text-center underline underline-offset-8">
+      <h3 className="  text-cyan-900 font-extrabold  text-2xl text-center underline underline-offset-8">
         EVENTS
       </h3>
 
@@ -16,7 +16,6 @@ export default function Events() {
         <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/One`}>
             <div>
-              {" "}
               <div
                 style={{
                   backgroundImage: `url(${eve1.src})`,
@@ -86,11 +85,16 @@ export default function Events() {
                     <LocationOnIcon className="text-lg" />
                     <p>Karulai</p>
                   </div>
-                  <p className="mt-1">
+                  {/* <p className="mt-1">
                     Monthly Jalaliyah&apos;s 10th anniversary celebration in
                     conjunction with the Silver Jubilee was held on Wednesday,
                     February 15 at the MDI campus
-                  </p>{" "}
+                  </p>  */}
+                  <p>
+                    MDI organizes a monthly prayer meeting and Jalaliyya Ratheeb
+                    on fifteenth of every month which is reported to be the
+                    largest Majlis in this area, It is held at MDI campus. 
+                  </p>
                 </div>
 
                 <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">

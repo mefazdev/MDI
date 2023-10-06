@@ -100,12 +100,12 @@ export default function Footer() {
           
         </div>
 
-        <div className="m-auto">
-          <div className="bg-white w-fit justify-center items-center rounded p-2 px-5">
-          <div className="lg:w-28">
+        <div className="lg:m-auto">
+          <div className="bg-white w-fit justify-center items-center rounded  p-2 px-5">
+          <div className="w-16 lg:w-28">
             <Image src={logo} />
           </div>
-          <div className="lg:w-28 mt-3 m-auto">
+          <div className=" w-16 lg:w-28 lg:mt-3 m-auto">
             <Image src={cal } />
           </div>
           </div>
@@ -199,7 +199,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-600 p-2   mt-10 text-gray-200">
-<div className=" md:w-10/12 m-auto grid grid-cols-2">
+<div className=" md:w-10/12 m-auto grid lg:grid-cols-2">
 <p className="text-sm"> © MDI Karulai 2023. <spa>All Rights reserved</spa></p> 
 {/* <p className="text-sm">Poweres by <a href="whatsapp://send?phone=+918606256402" data-action="share/whatsapp/share"   >
                  

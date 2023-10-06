@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
- 
 
 export default function About() {
   return (
@@ -12,7 +11,8 @@ export default function About() {
       </div>
       <div className="home__about__content grid   gap-5 lg:gap-10 lg:grid-cols-3">
         {/* <div className="home__about__img"></div> */}
-        <iframe className="h-52 lg:h-full"
+        <iframe
+          className="h-52 lg:h-full"
           id="if"
           width={"100%"}
           // height="100%"
@@ -23,21 +23,19 @@ export default function About() {
         ></iframe>
         <div className="home__about__content__right lg:col-span-2">
           <p className="home__about__p text-gray-700">
- 
-            MDI (registered as Madaru Da&apos;awathil Islamiyya under the Societies
-            Registration Act of 1860)is a unique religious ,socio cultural,
-            educational and charitable organization with a laudable mission and
-            vision..MDI situated in Karulai besides the reserve forest area of
-            Nilambur Tehsil., Malappuram District of Kerala state..MDI was
-            established in 1997as a non political, non profitable, and
-            non-government Organization (NGO).MDI has over 12 educational and
-            other institutions under its auspices and has now transformed itself
-            into a mass movement of smart learning. With 21 years since its
-            inception, has now grown enough to support and nourish numerous
-            sections of humanity. From 25 cents of minimum land at its
-            beginning, the campus spread over three acres of lush greenery and
-            has State-of-the-Art Infrastructure facilities. 
-           
+            MDI (registered as Madaru Da&apos;awathil Islamiyya under the
+            Societies Registration Act of 1860)is a unique religious ,socio
+            cultural, educational and charitable organization with a laudable
+            mission and vision..MDI situated in Karulai besides the reserve
+            forest area of Nilambur Tehsil., Malappuram District of Kerala
+            state..MDI was established in 1997as a non political, non
+            profitable, and non-government Organization (NGO).MDI has over 12
+            educational and other institutions under its auspices and has now
+            transformed itself into a mass movement of smart learning. With 21
+            years since its inception, has now grown enough to support and
+            nourish numerous sections of humanity. From 25 cents of minimum land
+            at its beginning, the campus spread over three acres of lush
+            greenery and has State-of-the-Art Infrastructure facilities.
           </p>
           <Link href="/About">
             <button className="bg-cyan-800 hover:bg-cyan-700 ">
@@ -46,14 +44,12 @@ export default function About() {
           </Link>
         </div>
       </div>
-  
-
     </div>
   );
 }
 
-
- {/* MDI (Madaru Da'wathil Islamiyya), an Islamic institution, has been
+{
+  /* MDI (Madaru Da'wathil Islamiyya), an Islamic institution, has been
             operating in the eastern part of Nilambur sub-district in the
             Malappuram district of Kerala for the past two decades. Under the
             leadership of MDI, it has been actively involved in the fields of
@@ -67,8 +63,11 @@ export default function About() {
             to women's education, empowerment, and socio-economic development.
             In addition to that, MDI oversees the operation of the "Vanitha Arts
             & Hadiya Academy," which operates under its auspices, further
-            contributing to the betterment of women in the region.. */}
-            {/* We work to enable
+            contributing to the betterment of women in the region.. */
+}
+{
+  /* We work to enable
 students from backward sections to have the skill to do higher studies, start a business, engage
 with the modern world and lead their community. Our goal is to empower the deprived sections
-of society by developing young leaders. */}
+of society by developing young leaders. */
+}

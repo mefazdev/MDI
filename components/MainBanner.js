@@ -17,7 +17,7 @@ export default function MainBanner() {
   return (
     <div className="pt-16 border">
       <Carousel
-        // autoPlay={false}
+        autoPlay={false}
         interval={4000}
         swipe={true}
         indicators={false}
@@ -33,7 +33,7 @@ export default function MainBanner() {
         >
           <div className="main__banner__div">
             <div className="main__head__div">
-              <span>
+              <span >
                 <h2>مدار الدعوة الاسلامية</h2>
               </span>
             </div>

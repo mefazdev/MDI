@@ -49,7 +49,7 @@ export default function Home() {
             </div>
           </a>
 
-          <a href="https://youtube.com/@mdikarulai714?si=8O7AhgVbFAXe0QwH">
+          <a href="https://www.instagram.com/madaru_dawathil_islamiyya_mdi/?igshid=NzZlODBkYWE4Ng%3D%3D">
             <div className="social__circle bg-yellow-600 rounded-full">
               <InstagramIcon id="social__ic" />
             </div>

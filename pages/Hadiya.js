@@ -87,8 +87,13 @@ export default function Hadiya() {
                       onChange={onVisibilityChange}
                       delayedCall
                     >
-                      <span className="font-bold">
-                        <CountUp
+                      <span
+                     
+                   
+                      className="font-bold"
+                      >
+                  
+                         <CountUp
                           start={0}
                           end={didViewCountUp ? 108 : 0}
                           duration={2}

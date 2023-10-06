@@ -149,7 +149,7 @@ export default function Navbar() {
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
-                          DARUSSALAM MADRESSA
+                          MASJIDS AND MADRASAS
                         </li>
                       </div>
                     </Link>

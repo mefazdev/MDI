@@ -636,6 +636,13 @@
     background-size: cover;
     background-position: center;
   }
+  .madrassa__box{
+  
+    background-image: url('../assets/images/masjids/3.jpg');
+    position: relative;
+    background-size: cover;
+    /* background-position: top; */
+  }
 
   #if.ytp-cued-thumbnail-overlay {
     display: none !important;

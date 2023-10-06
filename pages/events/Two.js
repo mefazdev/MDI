@@ -30,7 +30,7 @@ export default function Events() {
             <h3 className="text-cyan-800 text-xl font-bold">
               10th Anniversary of Jalaliyya Ratheeb{" "}
             </h3>
-            <p>
+            {/* <p>
               Jalaliyya majilis are held every month under the leadership of
               Syed Hydros Muthukoya Thangal Elankur, Syed falil jifri Kundur and
               Shihabudeen Musliyar kanchangad. Monthly Jalaliyah&apos;s 10th
@@ -41,8 +41,21 @@ export default function Events() {
               hundreds of believers participate in the Majlis every month and
               obtain spiritual approval. Majlis is held on the fifteenth day of
               every English month. Special prayers are offered to institutional
-              associates and others. 
-            </p>{" "}
+              associates and others.
+            </p> */}
+
+            <p>
+              MDI organizes a monthly prayer meeting and Jalaliyya Ratheeb on
+              fifteenth of every month which is reported to be the largest
+              Majlis in this area, It is held at MDI campus . The Jalaliyya
+              Ratheeb began in 2010. The Burdha majlis is started Three year
+              befor by the direction given by usthad Shaikh aboobacker Ahmed on
+              the time of 20th annual celebration of MDI.The central attraction
+              and the focal point of all activities where MDI takes its
+              inspiration from is the Jalaliyya Ratheeb congregation which is
+              led by sayyid Fadhlu Jifree Thangal Kundoor with thousands of
+              people attending. 
+            </p>
           </div>
 
           <div
