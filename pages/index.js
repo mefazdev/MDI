@@ -61,9 +61,9 @@ export default function Home() {
             </div>
           </a>
         </div>
-
-        <Message />
         <About />
+        <Message />
+       
 
         <Instituions />
 

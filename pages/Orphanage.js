@@ -9,6 +9,9 @@ import OrphanageBanner from "@/components/OrphanageBanner";
 import img1 from "../assets/images/orphanage/orph-1.jpg";
 import img2 from "../assets/images/orphanage/orph-2.jpg";
 import img3 from "../assets/images/orphanage/orph-3.jpg";
+import img4 from "../assets/images/orphanage/orph-4.jpeg";
+import img5 from "../assets/images/orphanage/orph-5.jpeg";
+import img6 from "../assets/images/orphanage/orph-6.jpeg";
 
 export default function Orphanage() {
   const [didViewCountUp, setState] = useState(false);
@@ -128,6 +131,33 @@ export default function Orphanage() {
             </div>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mt-10 m lg:mt-24">
+          <div
+              className="h-60"
+              style={{
+                backgroundImage: `url(${img4.src})`,
+
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            ></div>
+            <div
+              className="h-60"
+              style={{
+                backgroundImage: `url(${img5.src})`,
+
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            ></div>
+            <div
+              className="h-60"
+              style={{
+                backgroundImage: `url(${img6.src})`,
+
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            ></div>
             <div
               className="h-60"
               style={{

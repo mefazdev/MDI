@@ -57,7 +57,7 @@
     height: 210px;
     /* margin-top: 15px; */
     /* border: solid red; */
-    background: url("../assets/images/img-6.jpg");
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -66,7 +66,7 @@
   .message__img{
     background: url("../assets/images/gs.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     /* background-position: bottom; */
     /* height: 350px;
@@ -610,7 +610,7 @@
   }
   .orphanage__box{
   
-    background-image: url('../assets/images/orph.jpeg');
+    background-image: url('../assets/images/orphanage/orph-6.jpeg');
     position: relative;
     background-size: cover;
     background-position: center;

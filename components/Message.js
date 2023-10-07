@@ -1,6 +1,7 @@
  
 import React, { useEffect, useState }  from "react"; 
- 
+ import gs from '../assets/images/gs.jpg'
+import Image from "next/image";
 export default function Message() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -18,7 +19,7 @@ export default function Message() {
   const handleScroll = () => {
     const element = document.getElementById('myElement'); // Replace 'myElement' with the actual element ID you want to track
     if (element && isElementInViewport(element)) {
-      setIsVisible(true);
+      // setIsVisible(true);
     } else {
       setIsVisible(false);
     }
@@ -34,7 +35,7 @@ export default function Message() {
   return (
     
     <div id="myElement" 
-     className="bg-slate-100  pt-10 lg:pt-16 pb-8 lg:pb-16   py-4   "
+     className="bg-slate-100 mt-10   pt-10 lg:pt-16 pb-8 lg:pb-16   py-4   "
     >
          
       <div
@@ -45,19 +46,21 @@ export default function Message() {
 
         <div className="home__about__content grid grid-cols-1 gap-5 lg:gap-10 lg:grid-cols-3">
           <div
-            className="border-8 border-cyan-800   "
+            className="border- border-cyan-800   "
           
           >
             <div
-            
-               className="message__img border-2  h-72 w-full lg:h-96  "
+            className="max-w-96"
+              //  className="message__im   
+              //   h-72 lg:h-80  
+              //   "
             >
-              {/* <Image src={founder} className='border-2 border-white ' /> */}
+              <Image src={gs} className='border- border-white ' />
             </div>
           </div>
 
           <div className="home__about__content__right lg:col-span-2">
-            <h3 className="text-2xl lg:mt-10 ">Founder&apos;s Message</h3>
+            <h3 className="text-2xl   ">Founder&apos;s Message</h3>
            
            
             <p 

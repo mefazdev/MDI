@@ -8,10 +8,13 @@ import VisibilitySensor from "react-visibility-sensor-v2";
 import HadiyaBanner from "@/components/HadiyaBanner";
 import img1 from "../assets/images/hadiya/hadiya-1.jpeg";
 import img2 from "../assets/images/hadiya/hadiya-2.jpeg";
-import img3 from "../assets/images/hadiya/hadiya-3.jpeg";
+ 
 import img4 from "../assets/images/hadiya/hadiya-4.jpeg";
 import img5 from "../assets/images/hadiya/hadiya-5.jpeg";
 import img6 from "../assets/images/hadiya/hadiya-6.jpeg";
+import img7 from "../assets/images/hadiya/9.jpeg";
+import img8 from "../assets/images/hadiya/10.jpeg";
+import img9 from "../assets/images/hadiya/11.jpeg";
 import SchoolIcon from "@mui/icons-material/School";
 import eve3 from "../assets/images/events/hadiya/6.jpeg";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -21,8 +24,8 @@ export default function Hadiya() {
   const [didViewCountUp, setState] = useState(false);
   const [more, setMore] = useState(false);
 
-  const imgs = [
-    img1,img2,img3,img4,img5,img6
+  const imgs = [img7,img8,img9,
+    img1,img2, img4,img5,img6
   ]
 
   const onVisibilityChange = (isVisible) => {
