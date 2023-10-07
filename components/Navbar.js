@@ -107,8 +107,8 @@ export default function Navbar() {
                       <div
                         className={
                           router.pathname == "/Photos"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
+                          ? "py-2 bg-cyan-800 text-white"
+                          : "py-2 hover:bg-cyan-800 hover:text-white"
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">

@@ -17,7 +17,7 @@ export default function MainBanner() {
   return (
     <div className="pt-16 border">
       <Carousel
-        autoPlay={false}
+        // autoPlay={false}
         interval={4000}
         swipe={true}
         indicators={false}
