@@ -58,42 +58,44 @@ export default function Navbar() {
 
           <div className="w-full lg:col-span-2   ">
             <div className="nav__item__row hidden xl:flex    justify-between">
-              <span className="flex">
+              <span className="flex  ">
                 <Link href="/">
-                  <h6>HOME</h6>
+                  <h6 className="hover:animate-ease-linear hover:animate-wiggle">HOME</h6>
                 </Link>
+            
               </span>
 
               <span className="flex">
                 <Link href="/About">
-                  <h6>ABOUT</h6>
+                  <h6 className="hover:animate-ease-linear hover:animate-wiggle">ABOUT</h6>
                 </Link>
               </span>
 
               <span className="flex nav__item__span group cursor-pointer">
-                <h6>INSTITUTIONS</h6>
+                <h6 className="hover:animate-ease-linear hover:animate-wiggle">INSTITUTIONS</h6>
                 <ArrowDropDownIcon id="nav__icon" />
                 <ul className="dropdown-menu absolute hidden pt-2   group-hover:block  ">
                   <span className="development__head cursor-pointer group">
                     <Link href="/Orphanage">
                       <div
                         className={
-                          router.pathname == "/Photos"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
+                          router.pathname == "/Orphanage"
+                            ? "py-2 bg-cyan-800 text-white"
+                            : "py-2 hover:bg-cyan-800 hover:text-white"
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
                           WOMENS ORPHANAGE & DISTITUTE HOME
                         </li>
                       </div>
-                    </Link>{" "}
+                    </Link> 
                     <Link href="/Hadiya">
                       <div
                         className={
-                          router.pathname == "/Photos"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
+                          router.pathname == "/Hadiya"
+                          ? "py-2 bg-cyan-800 text-white"
+                          : "py-2 hover:bg-cyan-800 hover:text-white"
+                
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
@@ -117,9 +119,10 @@ export default function Navbar() {
                     <Link href="/Zahrath">
                       <div
                         className={
-                          router.pathname == "/Photos"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
+                          router.pathname == "/Zahrath"
+                          ? "py-2 bg-cyan-800 text-white"
+                          : "py-2 hover:bg-cyan-800 hover:text-white"
+                
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
@@ -131,8 +134,9 @@ export default function Navbar() {
                       <div
                         className={
                           router.pathname == "/Homecare"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
+                          ? "py-2 bg-cyan-800 text-white"
+                          : "py-2 hover:bg-cyan-800 hover:text-white"
+                
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
@@ -144,8 +148,9 @@ export default function Navbar() {
                       <div
                         className={
                           router.pathname == "/Madrassa"
-                            ? "active__dropdown py-2"
-                            : "service__group__span py-2"
+                          ? "py-2 bg-cyan-800 text-white"
+                            : "py-2 hover:bg-cyan-800 hover:text-white"
+                  
                         }
                       >
                         <li className=" px-4 block whitespace-no-wrap text-sm ">
@@ -199,18 +204,18 @@ export default function Navbar() {
               </span> */}
               <span className="flex">
                 <Link href="/">
-                  <h6>DOWNLOADS</h6>
+                  <h6 className="hover:animate-ease-linear hover:animate-wiggle">DOWNLOADS</h6>
                 </Link>
               </span>
 
               <span className="flex">
                 <Link href="/Events">
-                  <h6>EVENTS</h6>
+                  <h6 className="hover:animate-ease-linear hover:animate-wiggle">EVENTS</h6>
                 </Link>
               </span>
               <span className="flex">
                 <Link href="/Contact">
-                  <h6>CONTACT US</h6>
+                  <h6 className="hover:animate-ease-linear hover:animate-wiggle">CONTACT</h6>
                 </Link>
               </span>
 

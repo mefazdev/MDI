@@ -114,6 +114,29 @@ export default function Instituions() {
           </Link>
         </div>
         <div className="bg-zinc-100 mt-10  px-8 pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <Link href="/Madrassa">
+            <div>
+              <div className="madrassa__box h-52 -mt-10"></div>
+              <div className="mt-7">
+                <h3 className="text-cyan-900 font-bold text-lg">
+                  Masjids & Madrasas
+                </h3>
+
+                <p className="mt-1">
+                  We have already constructed number of Masjids in the different
+                  area of Karulai. We also started Madrassas alongside of
+                  Masjids to have an everlasting solution for the spiritual and
+                  moral education. 
+                </p>
+              </div>
+
+              <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                Know More
+              </button>
+            </div>
+          </Link>
+        </div>
+        <div className="bg-zinc-100 mt-10  px-8 pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href="/Homecare">
             <div>
               <div className="care__box h-52 -mt-10"></div>
