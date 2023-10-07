@@ -16,12 +16,12 @@ export default function About() {
           id="if"
           width={"100%"}
           // height="100%"
-          src="https://www.youtube.com/embed/6qq1NCmbAtQ?si=yN4CdalLC_wk172W"
+          src="https://www.youtube.com/embed/YxgOkTCVhFo?si=DnvPSLzib0HFobGt"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-        <div className="home__about__content__right lg:col-span-2">
+           <div className="home__about__content__right lg:col-span-2">
           <p className="home__about__p text-gray-700">
             MDI (registered as Madaru Da&apos;awathil Islamiyya under the
             Societies Registration Act of 1860)is a unique religious ,socio
