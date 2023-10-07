@@ -99,7 +99,7 @@ export default function Instituions() {
           </Link>
         </div>
         <div className="bg-zinc-100 mt-10  px-8 pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-          <Link href="/Madarssa">
+          <Link href="/Madrassa">
             <div>
               <div className="madrassa__box h-52 -mt-10"></div>
               <div className="mt-7">

@@ -42,21 +42,21 @@ export default function Home() {
       <div className="content">
         <MainBanner />
 
-        <div className="home__social text-cyan-90 text-white">
-          <a href="https://www.facebook.com/mdischoolkarulai?mibextid=LQQJ4d">
-            <div className=" social__circle bg-yellow-600 rounded-full">
-              <FacebookIcon id="social__ic" />
+        <div className="home__social text-cyan-90 text-white ">
+          <a href="https://www.facebook.com/mdischoolkarulai?mibextid=LQQJ4d" >
+            <div className=" social__circle bg-yellow-600 rounded-full hover:animate-jump" >
+              <FacebookIcon   />
             </div>
           </a>
 
           <a href="https://www.instagram.com/madaru_dawathil_islamiyya_mdi/?igshid=NzZlODBkYWE4Ng%3D%3D">
-            <div className="social__circle bg-yellow-600 rounded-full">
+            <div className="social__circle bg-yellow-600 rounded-full hover:animate-jump">
               <InstagramIcon id="social__ic" />
             </div>
           </a>
 
           <a href="https://www.youtube.com/@mdikarulai714">
-            <div className="social__circle bg-yellow-600 rounded-full">
+            <div className="social__circle bg-yellow-600 rounded-full hover:animate-jump">
               <YouTubeIcon id="social__ic" />
             </div>
           </a>

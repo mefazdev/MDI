@@ -215,7 +215,7 @@ export default function Navbar() {
               </span>
 
               <Link href={"/Donate"}>
-                <button className="bg-yellow-600   rounded p-1.5 px-3 text-white">
+                <button className="bg-yellow-600 hover:animate-jump animate-duration-700  rounded p-1.5 px-3 text-white">
                   DONATE
                   <FavoriteIcon className="ml-1" />
                 </button>
