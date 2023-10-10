@@ -74,7 +74,8 @@ export default function Events() {
 
       <div className="content pt-7 md:pt-16 pb-7 md:pb-32">
         <div className=" md:w-11/12 m-auto p-4 md:p-0 ">
-          <div>
+          <div className="lg:grid grid-cols-3 ">
+          <div className="lg:col-span-2">
             <h3 className="text-cyan-800 text-xl font-bold">
               Reminisce&apos;23 School grand alumni meet
             </h3>
@@ -89,9 +90,15 @@ export default function Events() {
               the school.
             </p>
           </div>
+          <div className="hidden lg:grid  shadow-md rounded border-cyan-700 bg-white p-2 mt-3">
+              {" "}
+              <div className="event4__img rounded-md   h-64      order-first lg:order-last "></div>
+            </div>
+          </div>
+          
 
           <div
-            className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-8
+            className="mt-10 lg:mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-8
          cursor-pointer
           "
           >

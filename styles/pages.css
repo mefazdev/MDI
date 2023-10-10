@@ -31,7 +31,36 @@
  
 }
 
+.event5__img{
+    background-image: url('../assets/images/events/dest-ing/2.jpg');
+    background-size: cover;
+    background-position: center;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+}
+.event2__img{
+    background-image: url('../assets/images/events/jalaliyya/1.jpeg');
+    background-size: cover;
+    background-position: center;
+  
+}
+.event3__img{
+    background-image: url('../assets/images/events/jalaliyya/1.jpeg');
+    background-size: cover;
+    background-position: center;
+  
+}
+.event6__img{
 
+}
+.event4__img{
+
+}
+.event7__img{
+
+}
+.event1__img{
+    
+}
 .page__banner{
     font-family: 'Nunito', sans-serif;
 

@@ -10,10 +10,12 @@ import img5 from "../../assets/images/events/dest-ing/5.jpg";
 import img6 from "../../assets/images/events/dest-ing/6.jpg";
 import img7 from "../../assets/images/events/dest-ing/7.jpg";
 
+import img8 from "../../assets/images/events/dest-ing/8.jpg";
+
 export default function Events() {
   const [more, setMore] = useState(false);
 
-  const imgs = [img1, img2, img3, img4, img5, img6, img7];
+  const imgs = [img1, img2, img3, img4, img5, img6, img8, img7];
   return (
     <div>
       <Navbar />
@@ -32,31 +34,37 @@ export default function Events() {
 
       <div className="content pt-7 md:pt-16 pb-7 md:pb-32">
         <div className=" md:w-11/12 m-auto p-4 md:p-0 ">
-          <div>
-            <h3 className="text-cyan-800 text-xl font-bold">
-              Destitute Home New Block Inauguration
-            </h3>
-            <p>
-              MDI Women&apos;s destitute home and the Women&apos;s Arts & Hadiya
-              Academy working under it have been providing unparalleled service
-              in the fields of women education empowerment and protection in the
-              villages of Eastern Ernad for 20 years. <br />
-              Accommodation, food and education are provided to the needy
-              students completely free of charge. It was a big dream of dear
-              parents and students to have their own hostel and campus for
-              destitute home who was working in a temporary building in the MDI
-              school campus.
-              <br />
-              Alhamdulillah, through five years of hard work, we were able to
-              achieve it by the grace of Allah, the Merciful. The hostel was
-              inaugurated on 10 June 2023 in the presence of Syeds and scholars.
-              May Allah, the Merciful, bless all those who helped and cooperated
-              with the pleasures of both worlds.
-            </p>
+          <div className="grid grid-cols-3">
+            <div className="col-span-2">
+              <h3 className="text-cyan-800 text-xl font-bold">
+                Destitute Home New Block Inauguration
+              </h3>
+              <p className="mt-2">
+                MDI Women&apos;s destitute home and the Women&apos;s Arts &
+                Hadiya Academy working under it have been providing unparalleled
+                service in the fields of women education empowerment and
+                protection in the villages of Eastern Ernad for 20 years. <br />
+                Accommodation, food and education are provided to the needy
+                students completely free of charge. It was a big dream of dear
+                parents and students to have their own hostel and campus for
+                destitute home who was working in a temporary building in the
+                MDI school campus.
+                <br />
+                Alhamdulillah, through five years of hard work, we were able to
+                achieve it by the grace of Allah, the Merciful. The hostel was
+                inaugurated on 10 June 2023 in the presence of Syeds and
+                scholars. May Allah, the Merciful, bless all those who helped
+                and cooperated with the pleasures of both worlds.
+              </p>
+            </div>
+            <div className="hidden lg:grid  shadow-md rounded border-cyan-700 bg-white p-2 mt-3">
+              {" "}
+              <div className="event5__img rounded-md   h-64      order-first lg:order-last "></div>
+            </div>
           </div>
 
           <div
-            className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-8
+            className="mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-8
          cursor-pointer
           "
           >

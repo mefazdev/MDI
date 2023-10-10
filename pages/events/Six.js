@@ -8,7 +8,7 @@ import img3 from "../../assets/images/events/zahra/3.jpg";
 import img4 from "../../assets/images/events/zahra/4.jpg";
 import img5 from "../../assets/images/events/zahra/5.jpg";
 import img6 from "../../assets/images/events/zahra/6.jpg";
-import img7 from "../../assets/images/events/zahra/7.jpg"
+import img7 from "../../assets/images/events/zahra/7.jpg";
 export default function Events() {
   const [more, setMore] = useState(false);
 
@@ -31,17 +31,30 @@ export default function Events() {
 
       <div className="content pt-7 md:pt-16 pb-7 md:pb-32">
         <div className=" md:w-11/12 m-auto p-4 md:p-0 ">
-          <div>
+          <div className="lg:grid grid-cols-3">
+          <div className="lg:col-span-2">
             <h3 className="text-cyan-800 text-xl font-bold">
               Zahra Convocation
             </h3>
             <p>
+              Zahrathul Qur&apos;an 2nd Annual convocation was very colorful in
+              the presence of Sadats and scholars.The 2nd convocation of MDI was
+              a better example of how the Qu&apos;an was able to inculcate Islamic
+              knowledge in the minds of children. The lesson zeeque imparts is
+              that Islam and its practical lessons should be imparted from a
+              young age.
               <br />
             </p>
           </div>
+          <div className="hidden lg:grid  shadow-md rounded border-cyan-700 bg-white p-2 mt-3">
+              {" "}
+              <div className="event6__img rounded-md   h-64      order-first lg:order-last "></div>
+            </div>
+          </div>
+      
 
           <div
-            className="mt-10 grid md:grid-cols-2 lg:grid-cols-3 gap-8
+            className="mt-10 lg:mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-8
          cursor-pointer
           "
           >
