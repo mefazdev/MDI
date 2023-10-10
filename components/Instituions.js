@@ -9,7 +9,7 @@ export default function Instituions() {
       </h3>
 
       <div className="prgm__content__row px-4 lg:px-0 lg:w-11/12   m-auto mt-10 gap-10 grid md:grid-cols-2 xl:grid-cols-3 ">
-        <div className="bg-zinc-100 mt-10   px-8 pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+        <div className="bg-stone-200 mt-10   px-8 pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href="/Orphanage">
             <div>
               <div className="orphanage__box h-52 -mt-10"></div>
