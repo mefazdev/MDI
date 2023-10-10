@@ -7,15 +7,21 @@ import HowToRegOutlinedIcon from "@mui/icons-material/HowToRegOutlined";
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 import OrphanageBanner from "@/components/OrphanageBanner";
 import img1 from "../assets/images/orphanage/orph-1.jpg";
-import img2 from "../assets/images/orphanage/orph-2.jpg";
-import img3 from "../assets/images/orphanage/orph-3.jpg";
-import img4 from "../assets/images/orphanage/orph-4.jpeg";
-import img5 from "../assets/images/orphanage/orph-5.jpeg";
+ 
+import img4 from "../assets/images/orphanage/orph-4.jpeg"; 
 import img6 from "../assets/images/orphanage/orph-6.jpeg";
+import img7 from "../assets/images/hadiya/hadiya-4.jpeg";
+import img8 from "../assets/images/hadiya/hadiya-1.jpeg";
+import img9 from "../assets/images/orphanage/orph-8.jpeg";
+
 
 export default function Orphanage() {
   const [didViewCountUp, setState] = useState(false);
   const [more, setMore] = useState(false);
+
+  const imgs = [img9,img4,img6,img7,img8,img1 
+    
+  ]
 
 
   const onVisibilityChange = (isVisible) => {
@@ -43,7 +49,7 @@ export default function Orphanage() {
           <div className=" grid lg:grid-cols-3  gap-6 ">
             <div className="lg:col-span-2 ">
               <h1 className=" text-lg lg:text-2xl text-cyan-900">
-                MDI Womens Orphanage & Distitute Home
+                MDI Women&apos;s Orphanage & Destitute Home
               </h1>
 
               <p className=" mt-2 lg:mt-4">
@@ -131,62 +137,76 @@ export default function Orphanage() {
             </div>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mt-10 m lg:mt-24">
-          <div
-              className="h-60"
-              style={{
-                backgroundImage: `url(${img4.src})`,
+          {imgs?.map((d, i) => {
+              if (!more) {
+                if (i < 6) {
+                  return (
+                    <div
+                      key={i}
+                      className="h-64 border-b-4 flex justify-center items-center rounded border-gray-800"
+                      style={{
+                        backgroundImage: `url(${d.src})`,
 
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            ></div>
-            <div
-              className="h-60"
-              style={{
-                backgroundImage: `url(${img5.src})`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                      }}
+                    >
+                      {!more && i == 5 ? (
+                        <button
+                          onClick={() => setMore(true)}
+                          className="  bg-zinc-800  bg-opacity-70  border border-white text-white p-2 px-5 rounded-sm hover:bg-cyan-800 hover:text-white "
+                        >
+                          View More
+                        </button>
+                      ) : (
+                        ""
+                      )}
+                    </div>
+                  );
+                }
+              } else {
+                return (
+                  <div
+                    key={i}
+                    className="h-64 border-b-4 flex justify-center items-center rounded border-gray-800"
+                    style={{
+                      backgroundImage: `url(${d.src})`,
 
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            ></div>
-            <div
-              className="h-60"
-              style={{
-                backgroundImage: `url(${img6.src})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
+                  >
+                    {!more && i == 5 ? (
+                      <button
+                        onClick={() => setMore(true)}
+                        className="  bg-zinc-800  bg-opacity-70  border border-white text-white p-2 px-5 rounded-sm hover:bg-cyan-800 hover:text-white "
+                      >
+                        View More
+                      </button>
+                    ) : (
+                      ""
+                    )}
+                  </div>
+                );
+              }
+            })}
+             
 
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            ></div>
-            <div
-              className="h-60"
-              style={{
-                backgroundImage: `url(${img1.src})`,
-
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            ></div>
-
-            <div
-              className="h-60"
-              style={{
-                backgroundImage: `url(${img2.src})`,
-
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            ></div>
-            <div
-              className="h-60"
-              style={{
-                backgroundImage: `url(${img3.src})`,
-
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            ></div>
+            
+           
+          
+          
           </div>
+          {more ? (
+            <button
+              onClick={() => setMore(false)}
+              className="m-auto flex mt-7 border border-cyan-700 text-cyan-800 p-1 px-5 rounded-sm hover:bg-cyan-800 hover:text-white "
+            >
+              Show Less
+            </button>
+          ) : (
+            ""
+          )}
         </div>
       </div>
 

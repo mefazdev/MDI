@@ -6,6 +6,10 @@ import eve1 from "../assets/images/events/18th/15.jpg";
 import eve2 from "../assets/images/events/jalaliyya/1.jpeg";
 import eve3 from "../assets/images/events/hadiya/6.jpeg";
 import eve4 from "../assets/images/events/schoolAlumni/1.jpeg";
+
+import eve5 from "../assets/images/events/dest-ing/1.jpg";
+import eve6 from "../assets/images/events/zahra/7.jpg";
+import eve7 from "../assets/images/events/seminar/1.jpg";
 import Footer from "@/components/Footer";
 
 export default function Events() {
@@ -185,6 +189,134 @@ export default function Events() {
                   <p className="mt-1">
                     Hadiya graduation ceremony for 100 graduates from MDI
                     Women&apos;s Hadiya Academy was held on February 25, 2023.
+                  </p>{" "}
+                </div>
+
+                <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                  Read More
+                </button>
+              </div>{" "}
+            </div>
+          </Link>
+        </div>
+
+        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <Link href={`/events/Five`}>
+            <div>
+              {" "}
+              <div
+                style={{
+                  backgroundImage: `url(${eve5.src})`,
+
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+                className="h-52 relative"
+              >
+                <div className="absolute bottom-0">
+                  <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
+                    <p>10 </p>
+                    <p className="-mt-1">June</p>
+                  </div>
+                </div>
+              </div>
+              <div className="px-4">
+                <div className="mt-7">
+                  <h3 className="text-cyan-900 font-bold text-lg">
+                    Destitute Home New Block Inauguration
+                  </h3>
+                  <div className="text-gray-600 flex mt-1">
+                    <LocationOnIcon className="text-lg" />
+                    <p>Karulai</p>
+                  </div>
+                  <p className="mt-1">
+                    Alhamdulillah, through five years of hard work, we were able
+                    to achieve it by the grace of Allah, the Merciful. The
+                    hostel was inaugurated on 10 June 2023 in the presence of
+                    Syeds and scholars. 
+                  </p>{" "}
+                </div>
+
+                <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                  Read More
+                </button>
+              </div>{" "}
+            </div>
+          </Link>
+        </div>
+
+        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <Link href={`/events/Six`}>
+            <div>
+              {" "}
+              <div
+                style={{
+                  backgroundImage: `url(${eve6.src})`,
+
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+                className="h-52 relative"
+              >
+                <div className="absolute bottom-0">
+                  <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
+                    <p>10 </p>
+                    <p className="-mt-1">June</p>
+                  </div>
+                </div>
+              </div>
+              <div className="px-4">
+                <div className="mt-7">
+                  <h3 className="text-cyan-900 font-bold text-lg">
+                  Zahra Convocation
+                  </h3>
+                  <div className="text-gray-600 flex mt-1">
+                    <LocationOnIcon className="text-lg" />
+                    <p>Karulai</p>
+                  </div>
+                  <p className="mt-1">
+                     
+                  </p>{" "}
+                </div>
+
+                <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                  Read More
+                </button>
+              </div>{" "}
+            </div>
+          </Link>
+        </div>
+        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <Link href={`/events/Six`}>
+            <div>
+              {" "}
+              <div
+                style={{
+                  backgroundImage: `url(${eve7  .src})`,
+
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+                className="h-52 relative"
+              >
+                <div className="absolute bottom-0">
+                  <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
+                    <p>10 </p>
+                    <p className="-mt-1">June</p>
+                  </div>
+                </div>
+              </div>
+              <div className="px-4">
+                <div className="mt-7">
+                  <h3 className="text-cyan-900 font-bold text-lg">
+                  അന്നത്തെ കരുളായി &apos;23 Historical Seminar
+                  </h3>
+                  <div className="text-gray-600 flex mt-1">
+                    <LocationOnIcon className="text-lg" />
+                    <p>Karulai</p>
+                  </div>
+                  <p className="mt-1">
+                     
                   </p>{" "}
                 </div>
 

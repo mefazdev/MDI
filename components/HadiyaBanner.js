@@ -1,10 +1,10 @@
 import Carousel from "react-material-ui-carousel";
 
-import slide1 from "../assets/images/hadiya/hadiya-1.jpeg";
+ 
 import slide2 from "../assets/images/hadiya/9.jpeg";
  
 
-import slide3 from "../assets/images/hadiya/hadiya-4.jpeg";
+// import slide3 from "../assets/images/hadiya/hadiya-4.jpeg";
 import slide4 from "../assets/images/hadiya/hadiya-5.jpeg";
 import slide5 from "../assets/images/hadiya/hadiya-6.jpeg";
 import slide6 from "../assets/images/hadiya/10.jpeg";
@@ -74,21 +74,7 @@ export default function HadiyaBanner() {
         </div>
         </div>
 
-        <div
-          className="page__banner h-72 w-full  lg:h-96  flex justify-center items-center   "
-          style={{
-            backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide3.src})`,
-
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-         <div className="bg-opacity-40 bg-black lg:bg-inherit">
-        <p className="  animate-fade-down  animate-ease-out animate-delay-1000 text-center   text-white text-xl lg:text-4xl font-bold">
-        WOMENS ARTS & HADIYA ACADEMY
-          </p>
-        </div>
-        </div>
+        
 
         <div
           className="page__banner w-full  h-72 lg:h-96  flex justify-center items-center   "
