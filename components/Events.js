@@ -33,7 +33,7 @@ export default function Events() {
     }
   };
   return (
-    <div className="h__prgm  mb-24   mt-10 lg:mt-20  md:px-0 md:w-11/12 m-auto  ">
+    <div className="h__prgm  pb-24   mt-10 lg:mt-20  md:px-0 md:w-11/12 m-auto  ">
       <h3 className="  text-cyan-900 font-extrabold  text-2xl text-center underline underline-offset-8">
         EVENTS
       </h3>
@@ -56,12 +56,13 @@ export default function Events() {
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
       >
-      <div  className="bg-white even__item   shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-          <Link href={`/events/One`}>
+         <div   className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <Link href={`/events/Five`}>
             <div>
+              {" "}
               <div
                 style={{
-                  backgroundImage: `url(${eve1.src})`,
+                  backgroundImage: `url(${eve5.src})`,
 
                   backgroundSize: "cover",
                   backgroundPosition: "center",
@@ -70,24 +71,25 @@ export default function Events() {
               >
                 <div className="absolute bottom-0">
                   <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
-                    <p>4-5 </p>
-                    <p className="-mt-1">Dec</p>
+                    <p>10 </p>
+                    <p className="-mt-1">June</p>
                   </div>
                 </div>
               </div>
               <div className="px-4">
                 <div className="mt-7">
                   <h3 className="text-cyan-900 font-bold text-lg">
-                    18th ANNIVERSARY
+                    Destitute Home New Block Inauguration
                   </h3>
                   <div className="text-gray-600 flex mt-1">
                     <LocationOnIcon className="text-lg" />
                     <p>Karulai</p>
                   </div>
                   <p className="mt-1">
-                    Madaru da&apos;awathil islamiyya (MDI) 18th Annual
-                    Conference was held on 4th 5th 6th December 2015 at CM
-                    Nagar, MDI Campus Karulai.{" "}
+                    Alhamdulillah, through five years of hard work, we were able
+                    to achieve it by the grace of Allah, the Merciful. The
+                    hostel was inaugurated on 10 June 2023 in the presence of
+                    Syeds and scholars. 
                   </p>{" "}
                 </div>
 
@@ -146,7 +148,6 @@ export default function Events() {
             </div>
           </Link>
         </div>
-
         <div   className="even__item bg-white m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/Three`}>
             <div>
@@ -189,7 +190,47 @@ export default function Events() {
             </div>
           </Link>
         </div>
+        <div   className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <Link href={`/events/Six`}>
+            <div>
+              {" "}
+              <div
+                style={{
+                  backgroundImage: `url(${eve6.src})`,
 
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+                className="h-52 relative"
+              >
+                <div className="absolute bottom-0">
+                  <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
+                    <p>10 </p>
+                    <p className="-mt-1">June</p>
+                  </div>
+                </div>
+              </div>
+              <div className="px-4">
+                <div className="mt-7">
+                  <h3 className="text-cyan-900 font-bold text-lg">
+                  Zahra Convocation
+                  </h3>
+                  <div className="text-gray-600 flex mt-1">
+                    <LocationOnIcon className="text-lg" />
+                    <p>Karulai</p>
+                  </div>
+                  <p className="mt-1">
+                     
+                  </p>{" "}
+                </div>
+
+                <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                  Read More
+                </button>
+              </div>{" "}
+            </div>
+          </Link>
+        </div>
         <div   className="even__item bg-white m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/Four`}>
             <div>
@@ -234,14 +275,12 @@ export default function Events() {
             </div>
           </Link>
         </div>
-
-        <div   className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-          <Link href={`/events/Five`}>
+      <div  className="bg-white even__item   shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <Link href={`/events/One`}>
             <div>
-              {" "}
               <div
                 style={{
-                  backgroundImage: `url(${eve5.src})`,
+                  backgroundImage: `url(${eve1.src})`,
 
                   backgroundSize: "cover",
                   backgroundPosition: "center",
@@ -250,25 +289,24 @@ export default function Events() {
               >
                 <div className="absolute bottom-0">
                   <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
-                    <p>10 </p>
-                    <p className="-mt-1">June</p>
+                    <p>4-5 </p>
+                    <p className="-mt-1">Dec</p>
                   </div>
                 </div>
               </div>
               <div className="px-4">
                 <div className="mt-7">
                   <h3 className="text-cyan-900 font-bold text-lg">
-                    Destitute Home New Block Inauguration
+                    18th ANNIVERSARY
                   </h3>
                   <div className="text-gray-600 flex mt-1">
                     <LocationOnIcon className="text-lg" />
                     <p>Karulai</p>
                   </div>
                   <p className="mt-1">
-                    Alhamdulillah, through five years of hard work, we were able
-                    to achieve it by the grace of Allah, the Merciful. The
-                    hostel was inaugurated on 10 June 2023 in the presence of
-                    Syeds and scholars. 
+                    Madaru da&apos;awathil islamiyya (MDI) 18th Annual
+                    Conference was held on 4th 5th 6th December 2015 at CM
+                    Nagar, MDI Campus Karulai.{" "}
                   </p>{" "}
                 </div>
 
@@ -279,48 +317,15 @@ export default function Events() {
             </div>
           </Link>
         </div>
+        
 
-        <div   className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-          <Link href={`/events/Six`}>
-            <div>
-              {" "}
-              <div
-                style={{
-                  backgroundImage: `url(${eve6.src})`,
+        
 
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-                className="h-52 relative"
-              >
-                <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
-                    <p>10 </p>
-                    <p className="-mt-1">June</p>
-                  </div>
-                </div>
-              </div>
-              <div className="px-4">
-                <div className="mt-7">
-                  <h3 className="text-cyan-900 font-bold text-lg">
-                  Zahra Convocation
-                  </h3>
-                  <div className="text-gray-600 flex mt-1">
-                    <LocationOnIcon className="text-lg" />
-                    <p>Karulai</p>
-                  </div>
-                  <p className="mt-1">
-                     
-                  </p>{" "}
-                </div>
+       
 
-                <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                  Read More
-                </button>
-              </div>{" "}
-            </div>
-          </Link>
-        </div>
+       
+
+        
      
  </Carousel>
         
