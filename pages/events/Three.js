@@ -50,7 +50,7 @@ export default function Events() {
               <h3 className="text-cyan-800 text-xl font-bold">
               HADIYA GRADUATION CEREMONY
               </h3>
-              <p className="mt-1">  One of the most important institutions in MDI's academic
+              <p className="mt-1">  One of the most important institutions in MDI&apos;s academic
                 revolution over the past 20 years has been the Hadiya Arabic
                 College. Lot of Alumni women who study from MDI and serve in
                 various sectors of the society continue to convey the fame and
@@ -60,7 +60,7 @@ export default function Events() {
                 Women&apos;s Hadiya Academy was held on February 25, 2023. Syed
                 Fall Geoffrey Kundur, Shoukathali Saqafi Karulai, Aboobacker
                 Saqafi P Para, and Shihabudeen Naeemi Blessed with their
-                presence.</p>
+                presence.</p> 
                
             </div>
             <div className="hidden lg:grid  shadow-md rounded border-cyan-700 bg-white p-2 mt-3">
