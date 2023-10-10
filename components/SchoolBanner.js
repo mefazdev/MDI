@@ -5,7 +5,7 @@ import slide2 from "../assets/images/school/slide-2.JPG";
 // import slide3 from "../assets/images/school/slide-3.JPG"; 
 import slide5 from "../assets/images/school/slide-5.JPG";
 import slide7 from "../assets/images/school/school-6.JPG";
-import slide6 from '../assets/images/school/2.JPG'
+import slide6 from '../assets/images/school/2.jpg'
 export default function SchoolBanner() {
   return (
     <div className="pt-16 border">
