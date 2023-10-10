@@ -31,18 +31,19 @@ export default function Contact() {
  <p>Address</p>
               </div>
               <div className='ml-6'>
-                <p>MDI KARULAI</p>
+                <p>MADARU DA&apos;WATHIL ISLAMIYYA</p>
                 <p>Karulai PO</p>
                 <p>Malappuram</p>
                 <p>Kerala, India</p>
+             <p>679330</p>
               </div>
 
               <div className='flex mt-5'>
                 <LocalPostOfficeIcon className='text-cyan-600'/>
  <p className='ml-1'>Email</p>
 
-              </div>
-              <p className='ml-7'>info@mdikarulai.in</p>
+              </div><a href="mailto:info@mdikarulai.in"><p className='ml-7'>info@mdikarulai.in</p></a>
+              
 
 
               <div className='flex mt-5'>
@@ -51,8 +52,9 @@ export default function Contact() {
 
               </div>
               <div className='ml-7'>
-    <p>9656570068</p>
-    <p>6238604143</p>
+              <a href="tel:+919656570068"> <p>9656570068</p></a>
+              <a href="tel:+916238604143">
+    <p>6238604143</p></a>
               </div>
             </div>
             </div>

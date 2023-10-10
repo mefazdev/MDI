@@ -60,13 +60,14 @@ export default function Footer() {
           </div>
         
           <div className="flex footer__phone">
-            <EmailIcon id="footer__icon" />
-            <p>info@mdikarulai.in </p>
+          <a href="mailto:info@mdikarulai.in"><EmailIcon id="footer__icon" /></a>
+            
+          <a href="mailto:info@mdikarulai.in"> <p>info@mdikarulai.in </p></a>
           </div>
           <div className="flex footer__name mt-3">
             <ApartmentIcon id="footer__icon" />
             <div className="ml-2">
-              <p>MDI  </p>
+              <p className="ml-1">MDI  </p>
 
               <h3>Karulai, Nilambur</h3>
               
@@ -90,12 +91,15 @@ export default function Footer() {
           <Link href="/Donate">
             <p>Donate</p>
           </Link>
-          <Link href="/Donate">
-            <p>Instituions</p>
+          <Link href="/Institutions">
+            <p>Institutions</p>
           </Link>
-          <Link href="/Donate">
+          <Link href="/Events">
+            <p>Events</p>
+          </Link>
+          {/* <Link href="/Donate">
             <p>Downloads</p>
-          </Link>
+          </Link> */}
           <Link href="/Contact">
             <p>Contact us</p>
           </Link>

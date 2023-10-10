@@ -57,11 +57,7 @@ export default function Zahrath() {
                 adhering the rules of recital ( Ahkamul Tajwid )memories the
                 30th part of holy Quran memorize and say daily duas and Adkar.
               </p>
-              <p className="mt-3">
-                The performance of Zahrathul Quran students in previous years
-                has been excellent. so, we have been able to carry it
-                continuously for seven years.
-              </p>
+               
             </div>
 
             <div className="zahra__img hidden lg:grid  h-64  mt-6   order-first lg:order-last "></div>
