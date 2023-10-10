@@ -11,14 +11,14 @@ export default function Message() {
         <div className="home__about__content  px-4 md:px-0 md:w-11/12 m-auto grid grid-cols-1 gap-5 lg:gap-10 lg:grid-cols-3">
           <div className="border- border-cyan-800   ">
             <div
-              className="max-w-96  lg:p-3       "
+              className="max-w-96  lg:p-3  bg-white p-3 w-fit rounded      "
               //  className="message__im
               //   h-72 lg:h-80
               //   "
             >
               <Image
                 src={gs}
-                className=" lg:max-w-sm    border-2 border-yellow-600 "
+                className=" lg:max-w-sm  rounded-xl  border- border-yellow-600 "
               />
             </div>
           </div>

@@ -21,7 +21,7 @@ export default function ZahraBanner() {
         // className="h-full"
       >
         <div
-          className="page__banner h-72 lg:h-96   flex justify-center items-center   "
+          className="  h-72 lg:h-96   flex justify-center items-center   "
           style={{
             backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide2.src})`,
 
@@ -37,7 +37,7 @@ export default function ZahraBanner() {
         </div>
         </div>
         <div
-          className="page__banner h-72 lg:h-96   flex justify-center items-center   "
+          className="  h-72 lg:h-96   flex justify-center items-center   "
           style={{
             backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide3.src})`,
 
@@ -52,7 +52,7 @@ export default function ZahraBanner() {
         </div>
         </div>
         <div
-          className="page__bannerh-72 lg:h-96   flex justify-center items-center   "
+          className="  h-72 lg:h-96   flex justify-center items-center   "
           style={{
             backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide4.src})`,
 

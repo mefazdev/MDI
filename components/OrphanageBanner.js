@@ -22,7 +22,7 @@ export default function OrphanageBanner() {
         // className="h-full"
       >
          <div
-          className="page__banner h-72 lg:h-96 relative    flex justify-center items-center   "
+          className="  h-72 lg:h-96 relative    flex justify-center items-center   "
           style={{
             backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide2.src})`,
 
@@ -39,7 +39,7 @@ export default function OrphanageBanner() {
         </div>
          
         <div
-          className="page__banner h-72 lg:h-96 relative    flex justify-center items-center   "
+          className="  h-72 lg:h-96 relative    flex justify-center items-center   "
           style={{
             backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide6.src})`,
 
@@ -55,7 +55,7 @@ export default function OrphanageBanner() {
          
         </div>
         <div
-          className="page__banner h-72 lg:h-96 relative    flex justify-center items-center   "
+          className=" h-72 lg:h-96 relative    flex justify-center items-center   "
           style={{
             backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide8.src})`,
 
@@ -72,7 +72,7 @@ export default function OrphanageBanner() {
         </div>
 
         <div
-          className="page__banner h-72 lg:h-96 relative    flex justify-center items-center   "
+          className="  h-72 lg:h-96 relative    flex justify-center items-center   "
           style={{
             backgroundImage: `linear-gradient(180deg,rgba(40, 39, 39, 0.139),rgba(10, 10, 11, 0.646)),url(${slide7.src})`,
 

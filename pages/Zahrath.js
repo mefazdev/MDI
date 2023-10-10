@@ -9,16 +9,12 @@ import img5 from "../assets/images/zahra/zahra-5.jpeg";
 import img6 from "../assets/images/zahra/zahra-2.jpeg";
 import Footer from "@/components/Footer";
 
-
 export default function Zahrath() {
-  const [more,setMore] = useState(false)
-  const imgs = [
-    img1,img2,img3,img4,img5,img6
-  ]
+  const [more, setMore] = useState(false);
+  const imgs = [img1, img2, img3, img4, img5, img6];
   return (
     <div>
       <Navbar />
-
 
       {/* <div className="bg-cyan-900  pb-16 lg:pb-24   pt-20">
         <div className="px-4 md:px-0 md:w-11/12 m-auto">
@@ -29,33 +25,50 @@ export default function Zahrath() {
         </div>
       </div> */}
 
-<ZahraBanner/>
+      <ZahraBanner />
       <div className="content pt-7 md:pt-16 pb-7 md:pb-32">
         <div className="px-4 md:px-0 md:w-11/12 m-auto">
-        <div className=" m-auto    grid lg:grid-cols-3  gap-6 ">
-          <div className="lg:col-span-2 ">
-            <h1 className=" text-lg lg:text-2xl text-cyan-900">
-              ZAHRA PRESHCOOL
-            </h1>
+          <div className=" m-auto    grid lg:grid-cols-3  gap-6 ">
+            <div className="lg:col-span-2 ">
+              <h1 className=" text-lg lg:text-2xl text-cyan-900">
+                ZAHRA PRESHCOOL
+              </h1>
 
-             
+              <p className="mt-2 lg:mt-4">
+                Zahratul Qur&apos;an Preschool is constituted with an aim of
+                helping future generation mould their lives according to Islamic
+                values enhanced through child friendly mentoring. This will be
+                done using the modern methods of education for Islamic studies.
+                Every modern, state of the art technologies will be used
+                effectively in the class rooms. The medium of instruction will
+                be Arabic.
+              </p>
+              <p className="mt-3">
+                {" "}
+                Children age three to four years are taught to read and memories
+                the Quran at a steady and easy pace. by the end of the third
+                year every zeequer will be able to read the Quran very well,
+                therefore enabling and preparing them to really memorize the
+                entire Quran correctly. zq ensures that every zeequer&apos;s
+                learning experience is maximiser to enhance their overall
+                pronunciation understanding and appreciation of The Holy Quran.
+                upon the completion of uzq, the zeequer is experienced to :
+                recite the Quran with confidence and proper pronunciation
+                adhering the rules of recital ( Ahkamul Tajwid )memories the
+                30th part of holy Quran memorize and say daily duas and Adkar.
+              </p>
+              <p className="mt-3">
+                The performance of Zahrathul Quran students in previous years
+                has been excellent. so, we have been able to carry it
+                continuously for seven years.
+              </p>
+            </div>
 
-            <p className="mt-2 lg:mt-4">
-              Zahratul Qur&apos;an Preschool is constituted with an aim of helping
-              future generation mould their lives according to Islamic values
-              enhanced through child friendly mentoring. This will be done using
-              the modern methods of education for Islamic studies. Every modern,
-              state of the art technologies will be used effectively in the
-              class rooms. The medium of instruction will be Arabic.
-            </p>
+            <div className="zahra__img hidden lg:grid  h-64  mt-6   order-first lg:order-last "></div>
           </div>
 
-          <div className="zahra__img hidden lg:grid  h-64    order-first lg:order-last "></div>
-        </div>
-
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6  mt-10 lg:mt-24">
-        {imgs?.map((d, i) => {
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6  mt-10 lg:mt-24">
+            {imgs?.map((d, i) => {
               if (!more) {
                 if (i < 6) {
                   return (
@@ -107,13 +120,21 @@ export default function Zahrath() {
                   </div>
                 );
               }
-            })}        </div> 
-        {more ?  <button onClick={()=>setMore(false)} className="m-auto flex mt-7 border border-cyan-700 text-cyan-800 p-1 px-5 rounded-sm hover:bg-cyan-800 hover:text-white ">Show Less</button>
-        : ''}
+            })}{" "}
           </div>
-      
+          {more ? (
+            <button
+              onClick={() => setMore(false)}
+              className="m-auto flex mt-7 border border-cyan-700 text-cyan-800 p-1 px-5 rounded-sm hover:bg-cyan-800 hover:text-white "
+            >
+              Show Less
+            </button>
+          ) : (
+            ""
+          )}
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

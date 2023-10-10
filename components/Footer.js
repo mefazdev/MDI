@@ -66,7 +66,7 @@ export default function Footer() {
             <div className="ml-2">
               <p>MDI KARULAI</p>
 
-              <h3>Krulai, Nilambur</h3>
+              <h3>Karulai, Nilambur</h3>
               <h3> Malappuram Kerala</h3>
               <h3>India</h3>
             </div>

@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
-import img1 from "../assets/images/masjids/1.jpg";
+import img1 from "../assets/images/masjids/7.jpeg";
 
 import img2 from "../assets/images/masjids/2.jpg";
 import img3 from "../assets/images/masjids/3.jpg";
@@ -52,12 +52,12 @@ export default function Madrassa() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mt-10 m lg:mt-24">
        
            <div
-              className="h-96 relative"
+              className="h-60 relative"
               style={{
                 backgroundImage: `url(${img1.src})`,
 
                 backgroundSize: "cover",
-                // backgroundPosition: "center",
+                backgroundPosition: "bottom",
               }}
             >
 <div className="bg-black opacity-80 text-opacity-100 text-white absolute bottom-0 w-full p-1 pl-3">
@@ -67,7 +67,19 @@ export default function Madrassa() {
             
            </div>
            
+           <div
+              className="h-60 relative"
+              style={{
+                backgroundImage: `url(${img3.src})`,
 
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            >
+            
+            <div className="bg-black opacity-80 text-opacity-100 text-white absolute bottom-0 w-full p-1 pl-3">
+              <p>Masjidul Badr MDI Campus</p>
+            </div></div>
             <div
               className="h-60 relative"
               style={{
@@ -81,19 +93,7 @@ export default function Madrassa() {
               <p>Masjidu Swahaba Kinattingal</p>
             </div>
             </div>
-            <div
-              className="h-60 relative"
-              style={{
-                backgroundImage: `url(${img3.src})`,
-
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-            >
-            
-            <div className="bg-black opacity-80 text-opacity-100 text-white absolute bottom-0 w-full p-1 pl-3">
-              <p>Masjidul Badr MDI Campus</p>
-            </div></div>
+           
             <div
               className="h-60 relative"
               style={{

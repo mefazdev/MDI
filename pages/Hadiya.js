@@ -5,14 +5,14 @@ import HowToRegOutlinedIcon from "@mui/icons-material/HowToRegOutlined";
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor-v2";
-import HadiyaBanner from "@/components/HadiyaBanner";  
-  
-import img5 from "../assets/images/hadiya/hadiya-5.jpeg";
-import img6 from "../assets/images/hadiya/hadiya-6.jpeg";
+import HadiyaBanner from "@/components/HadiyaBanner";
+
 import img7 from "../assets/images/hadiya/9.jpeg";
 import img8 from "../assets/images/hadiya/10.jpeg";
 import img9 from "../assets/images/hadiya/11.jpeg";
-import img12 from "../assets/images/hadiya/12.jpeg";
+import img12 from "../assets/images/hadiya/15.jpeg";
+import img13 from "../assets/images/hadiya/13.jpg";
+import img14 from "../assets/images/hadiya/14.jpeg";
 import SchoolIcon from "@mui/icons-material/School";
 import eve3 from "../assets/images/events/hadiya/6.jpeg";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -22,9 +22,7 @@ export default function Hadiya() {
   const [didViewCountUp, setState] = useState(false);
   const [more, setMore] = useState(false);
 
-  const imgs = [img7,img8,img9,img12,
-    img5,img6
-  ]
+  const imgs = [img7, img9, img12, img13, img14, img8];
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible) {
@@ -88,13 +86,8 @@ export default function Hadiya() {
                       onChange={onVisibilityChange}
                       delayedCall
                     >
-                      <span
-                     
-                   
-                      className="font-bold"
-                      >
-                  
-                         <CountUp
+                      <span className="font-bold">
+                        <CountUp
                           start={0}
                           end={didViewCountUp ? 108 : 0}
                           duration={2}
@@ -136,37 +129,63 @@ export default function Hadiya() {
             </div>
           </div>
 
-          <div className=" bg-slat-200 border bg-white  mt-10 shadow-xl">
-            <div className="flex  text-cyan-700 font-semibold p-1 px-4       ">
-              <SchoolIcon />
-              <p className="ml-2 text-lg  ">Hadiya 2 Years Course</p>
-            </div>
+          <div className="grid lg:grid-cols-2  lg:gap-5">
+            <div className=" bg-slat-200 border bg-white  mt-10 shadow-xl  p-5">
+              <div className="flex  text-cyan-700 font-semibold p-1 px-4       ">
+                <SchoolIcon />
+                <p className="ml-2 text-lg  ">Hadiya 2 Years Course</p>
+              </div>
 
-            <div className="p-6 pt-3 grid lg:grid-cols-2 gap-5">
-              <div className="bg-black bg-opacity-60 p-1 px-4 text-white  ">
-                <p>Duration : Two year (4 semester)</p>
-              </div>{" "}
-              <div className="bg-black bg-opacity-60 p-1 px-4 text-white  ">
-                <p>
-                  Eligibility : SSLC (10th Grade) and 7th Grade at Madrasa or
-                  its equivalent
-                </p>
+              <div className="p-6 pt-3 ">
+                <div className="bg-blac bg-opacity-60 p-1 px-4 text-whit lg:w-7/12 ">
+                  <li> Duration : Two year (4 Semester)</li>
+                </div>{" "}
+                <div className=" bg-opacity-60 p-1 px-4   ">
+                  <li>
+                    {" "}
+                    Eligibility : SSLC (10th Grade) with 7th Grade at Madrasa or
+                    its Equivalent
+                  </li>
+                </div>
+                <div className="  bg-opacity-60 p-1 px-4    ">
+                  <li>Academic Year : June 1- March 31 (10 Months)</li>
+                </div>
+                <div className="  p-1 px-4    ">
+                  <li>
+                    State Syllabus : Higher Secondary in Science, Commerce and
+                    Humanities.
+                  </li>
+                </div>
               </div>
-              <div className="bg-black bg-opacity-60 p-1 px-4 text-white  ">
-                <p>Academic Year : June 1- March 31 (10 Months)</p>{" "}
+            </div>
+            <div className=" bg-slat-200 border bg-white  mt-10 shadow-xl p-5">
+              <div className="flex  text-cyan-700 font-semibold p-1 px-4       ">
+                <SchoolIcon />
+                <p className="ml-2 text-lg  ">Hadiya 1 Year Diploma</p>
               </div>
-              <div className="bg-black bg-opacity-60 p-1 px-4 text-white  ">
-                <p>
-                  Govt.courses : Higher secondary in Humanities, Commerce and
-                  science - 2 years
-                </p>{" "}
+
+              <div className="p-6 pt-3 ">
+                <div className="bg-blac bg-opacity-60 p-1 px-4 text-whit lg:w-7/12 ">
+                  <li> Duration : One Year (2 Semester)</li>
+                </div>{" "}
+                <div className=" bg-opacity-60 p-1 px-4   ">
+                  <li>
+                    {" "}
+                    Eligibility :Higher Secondary with Hadiya or its Equivalent
+                  </li>
+                </div>
+                <div className="  bg-opacity-60 p-1 px-4    ">
+                  <li>Academic Year : June 1- March 31 (10 Months)</li>
+                </div>
+                <div className="  p-1 px-4    ">
+                  <li>Skill Development : Caligraphy & Handicraft</li>
+                </div>
               </div>
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mt-10 m lg:mt-24">
-         
-          {imgs?.map((d, i) => {
+            {imgs?.map((d, i) => {
               if (!more) {
                 if (i < 6) {
                   return (
@@ -219,11 +238,6 @@ export default function Hadiya() {
                 );
               }
             })}
-             
-
-            
-           
-            
           </div>
           {more ? (
             <button
@@ -236,58 +250,57 @@ export default function Hadiya() {
             ""
           )}
 
-
-<div className="mt-16">
-    <div  className="bg-cyan-950 w-fit  px-5 p-1 text-white"><p>EVENTS</p>
-    </div>
-
-    <div className="gap-10 mt-5 grid md:grid-cols-2 xl:grid-cols-3">
-    <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-          <Link href={`/events/Four`}>
-            <div>
-              {" "}
-              <div
-                style={{
-                  backgroundImage: `url(${eve3.src})`,
-
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-                className="h-52 relative"
-              >
-                <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
-                    <p>18 </p>
-                    <p className="-mt-1">Feb</p>
-                  </div>
-                </div>
-              </div>
-              <div className="px-4">
-                <div className="mt-7">
-                  <h3 className="text-cyan-900 font-bold text-lg">
-                    Reminisce&apos;23 English School Grand Alumni Meet
-                  </h3>
-                  <div className="text-gray-600 flex mt-1">
-                    <LocationOnIcon className="text-lg" />
-                    <p>Karulai</p>
-                  </div>
-                  <p className="mt-1">
-                    Batches from 2007 to 2022 who completed their studies from
-                    MDI English Medium School met on February 18, 2023 at the
-                    reminisce&apos;3 school grand alumni meet organized by MDI
-                    management
-                  </p>{" "}
-                </div>
-
-                <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                  Read More
-                </button>
-              </div>{" "}
+          <div className="mt-16">
+            <div className="bg-cyan-950 w-fit  px-5 p-1 text-white">
+              <p>EVENTS</p>
             </div>
-          </Link>
-        </div>
-    </div>
-   </div>
+
+            <div className="gap-10 mt-5 grid md:grid-cols-2 xl:grid-cols-3">
+              <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+                <Link href={`/events/Three`}>
+                  <div>
+                    {" "}
+                    <div
+                      style={{
+                        backgroundImage: `url(${eve3.src})`,
+
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                      }}
+                      className="h-52 relative"
+                    >
+                      <div className="absolute bottom-0">
+                        <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
+                          <p>18 </p>
+                          <p className="-mt-1">Feb</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="px-4">
+                      <div className="mt-7">
+                        <h3 className="text-cyan-900 font-bold text-lg">
+                          Hadiya Convocation
+                        </h3>
+                        <div className="text-gray-600 flex mt-1">
+                          <LocationOnIcon className="text-lg" />
+                          <p>Karulai</p>
+                        </div>
+                        <p className="mt-1">
+                          Hadiya graduation ceremony for 100 graduates from MDI
+                          Women&apos;s Hadiya Academy was held on February 25,
+                          2023.
+                        </p>{" "}
+                      </div>
+
+                      <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                        Read More
+                      </button>
+                    </div>{" "}
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />

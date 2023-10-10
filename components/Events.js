@@ -8,15 +8,55 @@ import eve4 from "../assets/images/events/schoolAlumni/1.jpeg";
 
 import eve5 from "../assets/images/events/dest-ing/1.jpg";
 import eve6 from "../assets/images/events/zahra/7.jpg"; 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 export default function Events() {
+
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
   return (
     <div className="h__prgm  mb-24   mt-10 lg:mt-20  md:px-0 md:w-11/12 m-auto  ">
       <h3 className="  text-cyan-900 font-extrabold  text-2xl text-center underline underline-offset-8">
         EVENTS
       </h3>
 
-      <div className="prgm__content__row px-4 lg:px-0 lg:w-11/12   m-auto mt-10 gap-10 grid md:grid-cols-2 xl:grid-cols-3 ">
-        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+      
+      {/* gap-10 grid md:grid-cols-2 xl:grid-cols-3 */}
+      <div className="prgm__content__row px-4 lg:px-0 lg:w-11/12   m-auto mt-10  ">
+      <Carousel responsive={responsive}
+      autoPlay
+      draggable={false}
+      showDots={true}
+      infinite={true}
+      // autoPlaySpeed={1000}
+      keyBoardControl={true}
+      // customTransition="all .5"
+      transitionDuration={500}
+      containerClass="carousel-container"
+      removeArrowOnDeviceType={["tablet", "mobile"]}
+     
+      dotListClass="custom-dot-list-style"
+      itemClass="carousel-item-padding-40-px"
+      >
+      <div  className="bg-white even__item   shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/One`}>
             <div>
               <div
@@ -58,8 +98,7 @@ export default function Events() {
             </div>
           </Link>
         </div>
-
-        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+        <div   className="bg-white even__item  m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/Two`}>
             <div>
               {" "}
@@ -108,7 +147,7 @@ export default function Events() {
           </Link>
         </div>
 
-        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+        <div   className="even__item bg-white m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/Three`}>
             <div>
               {" "}
@@ -151,7 +190,7 @@ export default function Events() {
           </Link>
         </div>
 
-        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+        <div   className="even__item bg-white m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/Four`}>
             <div>
               {" "}
@@ -196,7 +235,7 @@ export default function Events() {
           </Link>
         </div>
 
-        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+        <div   className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/Five`}>
             <div>
               {" "}
@@ -241,7 +280,7 @@ export default function Events() {
           </Link>
         </div>
 
-        <div className="bg-white shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+        <div   className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
           <Link href={`/events/Six`}>
             <div>
               {" "}
@@ -282,6 +321,10 @@ export default function Events() {
             </div>
           </Link>
         </div>
+     
+ </Carousel>
+        
+
       </div>
     </div>
   );

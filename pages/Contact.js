@@ -42,7 +42,7 @@ export default function Contact() {
  <p className='ml-1'>Email</p>
 
               </div>
-              <p className='ml-7'>info@mdikarulai.org</p>
+              <p className='ml-7'>info@mdikarulai.in</p>
 
 
               <div className='flex mt-5'>

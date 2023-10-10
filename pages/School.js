@@ -2,11 +2,16 @@ import Navbar from "@/components/Navbar";
 import SchoolBanner from "@/components/SchoolBanner";
 import React, { useState } from "react";
 import img1 from "../assets/images/school/school-4.JPG";
-import img2 from "../assets/images/school/school-2.JPG";
+import img2 from "../assets/images/school/school-2.jpeg";
 import img3 from "../assets/images/school/slide.JPG";
 import img4 from "../assets/images/school/school-1.JPG";
 import img5 from "../assets/images/school/school-6.JPG";
 import img6 from "../assets/images/school/school-5.JPG";
+import img7 from '../assets/images/school/3.jpg'
+import img8 from '../assets/images/school/4.jpg'
+import img9 from '../assets/images/school/5.jpg'
+import img10 from '../assets/images/school/6.jpg'
+import img11 from '../assets/images/school/slide-5.JPG'
 import Footer from "@/components/Footer";
 import eve4 from "../assets/images/events/schoolAlumni/1.jpeg";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -30,7 +35,7 @@ export default function School() {
   
   const [readMore, setReadMore] = useState(false);
 
-  const imgs = [img1, img2, img3, img4, img5, img6];
+  const imgs = [img3, img4, img5,img8,img9,img11, img2,  img6, img7,img1,img10];
   return (
     <div>
       <Navbar />
@@ -50,22 +55,20 @@ export default function School() {
           <div className="grid lg:grid-cols-3  gap-6 ">
             <div className="lg:col-span-2 ">
               <h1 className=" text-xl lg:text-2xl text-cyan-900">
-                Englsih School (CBSE)
+              MDI Public School  (CBSE)
               </h1>
 
               <p className=" mt-2 lg:mt-4">
                 English has become an indispensable ingredient in everyday life.
                 If you turn your back on the course of the world without
                 understanding what is happening out there, it will cause loss
-                and misery to the community.MDI English medium School was the
+                and misery to the community. MDI English medium School was the
                 solution to the problem: Apart from that, the English medium
                 schools of alternate ideologues and hooligans was started
-                threatening Islam. The cognizance of Christianity and Christian
-                theories is going on in the intricacies of robbing the faith of
-                Muslim students. In the schools of Non Sunnis, the true aspect
+                threatening Islam.  In the schools of Non Sunnis, the true aspect
                 of Islam is ramshackle and injected to students. Such shocking
                 facts forced MDI to start an English medium school based on
-                Islam&apos;s ideas.{" "}
+                Islamic ideas. 
               </p>
 
               <p className="mt-3 hidden lg:grid">

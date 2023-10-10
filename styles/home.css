@@ -603,7 +603,7 @@
   .hadiya__box{
     
     /* background-image: url('../assets/images/hadiya.jpg'); */
-    background-image: url('../assets/images/hadiya/hadiya-4.jpeg');
+    background-image: url('../assets/images/hadiya/13.jpg');
     position: relative;
     background-size: cover;
     background-position: center;
@@ -643,4 +643,13 @@
  /* width: 100%; */
   margin: auto;
 
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+  .even__item{
+   height: 480px;
+  }
 }
