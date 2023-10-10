@@ -8,6 +8,7 @@ import img6 from "../../assets/images/events/hadiya/6.jpeg";
 import img7 from "../../assets/images/events/hadiya/7.jpeg";
 import img8 from "../../assets/images/events/hadiya/8.jpeg";
 import img9 from "../../assets/images/events/hadiya/9.jpeg";
+import img10 from "../../assets/images/hadiya/hadiya-6.jpeg"
  
 // import img15 from "../../assets/images/events/hadiya/15.jpeg";
 import Image from "next/image";
@@ -16,7 +17,7 @@ export default function Events() {
 
   const imgs = [  img1,
 
-    img8,   img4,img3,img6,img9, img7,
+    img8,   img4,img3,img6,img9, img7,img10
     
   
     

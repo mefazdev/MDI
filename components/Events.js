@@ -181,7 +181,7 @@ export default function Events() {
                 <div className="px-4">
                   <div className="mt-7">
                     <h3 className="text-cyan-900 font-bold text-lg">
-                      Hadiya Convocation
+                    Hadiya Graduation Ceremony
                     </h3>
                     <div className="text-gray-600 flex mt-1">
                       <LocationOnIcon className="text-lg" />
@@ -361,7 +361,7 @@ export default function Events() {
                       4-5 <span className="text-base font-thin">Dec</span>{" "}
                     </p>
                     {/* <p className="-mt-1 text-lg font-thin">June</p> */}
-                    <p className="text-sm font-thin">2023</p>
+                    <p className="text-sm font-thin">2015</p>
                   </div>
 
                    

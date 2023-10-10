@@ -27,6 +27,7 @@ import img22 from "../../assets/images/events/schoolAlumni/22.jpeg";
 import img23 from "../../assets/images/events/schoolAlumni/23.jpeg";
 import img24 from "../../assets/images/events/schoolAlumni/24.jpeg";
 
+
 import Image from "next/image";
 export default function Events() {
   const [more, setMore] = useState(false);
@@ -45,17 +46,19 @@ export default function Events() {
     img9,
     img10,
     img11,
-    img12,
+    img22,
+    img19,
     img13,
     img14,
     img15,
+    img12,
     img16,
     img17,
     img18,
-    img19,
+    
     img20,
     img21,
-    img22,
+   
     img23,
     img24,
   ];
@@ -79,7 +82,7 @@ export default function Events() {
             <h3 className="text-cyan-800 text-xl font-bold">
               Reminisce&apos;23 School grand alumni meet
             </h3>
-            <p>
+            <p className="mt-2">
               {" "}
               Batches from 2007 to 2022 who completed their studies from MDI
               English Medium School met on February 18, 2023 at the

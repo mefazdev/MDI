@@ -5,7 +5,7 @@ export default function Message() {
   return (
     <div
       id="myElement"
-      className="bg-slate-100 mt-10   pt-10 lg:pt-16 pb-8 lg:pb-16   py-4   "
+      className="bg-slate-200 mt-10   pt-16 lg:pt-10 pb-8 lg:pb-10   py-4   "
     >
       <div>
         <div className="home__about__content  px-4 md:px-0 md:w-11/12 m-auto grid grid-cols-1 gap-5 lg:gap-10 lg:grid-cols-3">
@@ -42,7 +42,7 @@ of society by developing young leaders. */}
               </p>
 
               <p className="text-LG mt-3 lg:mt-5 text-black font-semibold">
-                SHOUKATH ALI SAQAFI
+                SHOUKATHALI SAQAFI
               </p>
               <p className="text-gray-700 ">
                 Founder & General Secretary of MDI Karulai

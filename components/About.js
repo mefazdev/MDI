@@ -3,13 +3,15 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="m-auto  mt-10 px-4 md:px-0 md:w-11/12 ">
-      <div className="home__subhead">
-        <div className="home__subhead bg-cyan-800 ">
-          <h3>About us</h3>
+    <div className="m-auto mt-10   px-4 md:px-0 md:w-11/12 ">
+      <div className="home__subhea">
+        <div className="about__welcome bg-cyan- ">
+          <h3 className="text-3xl lg:text-6xl     font-bold text-cyan-800 text-center animate-pulse    ">
+            Welcome To MDI
+          </h3>
         </div>
       </div>
-      <div className="home__about__content grid   gap-5 lg:gap-10 lg:grid-cols-3">
+      <div className=" mt-3 lg:mt-10 grid   gap-5 lg:gap-10 lg:grid-cols-3">
         {/* <div className="home__about__img"></div> */}
         <iframe
           className="h-52 lg:h-full"
@@ -21,21 +23,21 @@ export default function About() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-           <div className="home__about__content__right lg:col-span-2">
+        <div className="home__about__content__right lg:col-span-2">
           <p className="home__about__p text-gray-700">
             MDI (registered as Madaru Da&apos;awathil Islamiyya under the
-            Societies Registration Act of 1860)is a unique religious ,socio
+            Societies Registration Act of 1860), is a unique religious, socio
             cultural, educational and charitable organization with a laudable
-            mission and vision..MDI situated in Karulai besides the reserve
-            forest area of Nilambur Tehsil., Malappuram District of Kerala
-            state..MDI was established in 1997as a non political, non
-            profitable, and non-government Organization (NGO).MDI has over 12
-            educational and other institutions under its auspices and has now
-            transformed itself into a mass movement of smart learning. With 21
-            years since its inception, has now grown enough to support and
-            nourish numerous sections of humanity. From 25 cents of minimum land
-            at its beginning, the campus spread over three acres of lush
-            greenery and has State-of-the-Art Infrastructure facilities.
+            vision and mission. MDI situated in Karulai besides the reserve
+            forest area of Nilambur Taluk, Malappuram District of Kerala state.
+            MDI was established in 1997 as a non-political, non-profitable and
+            non-government Organization (NGO). MDI has over 12 educational and
+            other institutions under its auspices and has now transformed itself
+            into a mass movement of smart learning. With 25 years since its
+            inception, has now grown enough to support and nourish numerous
+            sections of humanity. From 25 cents of minimum land at its
+            beginning, the campus spread over three acres of lush greenery and
+            has State-of-the-Art infrastructure facilities.
           </p>
           <Link href="/About">
             <button className="bg-cyan-800 hover:bg-cyan-700 ">

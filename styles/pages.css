@@ -50,15 +50,24 @@
   
 }
 .event6__img{
-
+    background-image: url('../assets/images/events/zahra/7.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .event4__img{
-
+    background-image: url('../assets/images/events/schoolAlumni/7.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 .event7__img{
-
+    background-image: url('../assets/images/events/seminar/6.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .event1__img{
+    background-image: url('../assets/images/events/18th/15.jpg');
+    background-size: cover;
+    background-position: center;
     
 }
 .page__banner{

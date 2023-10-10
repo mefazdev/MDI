@@ -202,11 +202,11 @@ export default function Navbar() {
                   </span>
                 </ul>
               </span> */}
-              <span className="flex">
+              {/* <span className="flex">
                 <Link href="/">
                   <h6 className="hover:animate-ease-linear hover:animate-wiggle">DOWNLOADS</h6>
                 </Link>
-              </span>
+              </span> */}
 
               <span className="flex">
                 <Link href="/Events">

@@ -53,8 +53,10 @@ export default function Footer() {
         <div className="lg:m-auto w-fit">
           <h6 className="text-xl font-bold">GET IN TOUCH</h6>
           <div className="flex footer__phone">
-            <CallIcon id="footer__icon" />
-            <p>+91 9656570068</p>
+            <a href="tel:+919656570068"><CallIcon id="footer__icon" /></a>
+            
+            <a href="tel:+919656570068"><p>+91 9656570068</p></a>
+            
           </div>
         
           <div className="flex footer__phone">
@@ -64,11 +66,13 @@ export default function Footer() {
           <div className="flex footer__name mt-3">
             <ApartmentIcon id="footer__icon" />
             <div className="ml-2">
-              <p>MDI KARULAI</p>
+              <p>MDI  </p>
 
               <h3>Karulai, Nilambur</h3>
+              
               <h3> Malappuram Kerala</h3>
               <h3>India</h3>
+              <h3>PIN : 679330</h3>
             </div>
           </div>
           </div>

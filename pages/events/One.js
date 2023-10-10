@@ -21,23 +21,21 @@ export default function Events() {
   const [more, setMore] = useState(false);
 
   const imgs = [
-    img15,
-    img1,
-    img5,
-    img2,
-
-    img3,
     img4,
-
-    img7,
-    img8,
-    img9,
     img10,
+    img7,
+
     img11,
     img12,
     img13,
-    img14,
     img6,
+    img1,img3,    img2, img8,
+    img14,
+
+
+    
+
+   
   ];
   return (
     <div>
@@ -54,27 +52,27 @@ export default function Events() {
 
       <div className="content pt-7 md:pt-16 pb-7 md:pb-32">
         <div className=" md:w-11/12 m-auto p-4 md:p-0 ">
-          <div className="lg:grid grid-cols-3 gap-10"><div className="lg:col-span-2">
-            <h3 className="text-cyan-800 text-xl font-bold">
-              MDI 18th ANNIVERSARY
-            </h3>
-            <p>
-              Madaru da&apos;awathil islamiyya (MDI) 18th Annual Conference was held
-              on 4th 5th 6th December 2015 at CM Nagar, MDI Campus Karulai.
-              Sunni Jamiathul Ulama General Secretary Kanthapuram AP Aboobacker
-              Musliyar delivered the keynote address. Prominent people like Syed
-              Ibrahim Khalil Bukhari, Ponmala Abdul Qader Musliar, Wandoor Abdur
-              Rahma Faizi, Koottampara Abdurahman Darimi, Mikhadad Baqavi
-              Chunkathara and other scholars and political personalities
-              presence make great pleasure. 
-            </p>
-          </div>
-          <div className="hidden lg:grid  shadow-md rounded border-cyan-700 bg-white p-2 mt-3">
+          <div className="lg:grid grid-cols-3 gap-10">
+            <div className="lg:col-span-2">
+              <h3 className="text-cyan-800 text-xl font-bold">
+                MDI 18th ANNIVERSARY
+              </h3>
+              <p>
+                Madaru da&apos;awathil islamiyya (MDI) 18th Annual Conference
+                was held on 4th 5th 6th December 2015 at CM Nagar, MDI Campus
+                Karulai. Sunni Jamiathul Ulama General Secretary Kanthapuram AP
+                Aboobacker Musliyar delivered the keynote address. Prominent
+                people like Syed Ibrahim Khalil Bukhari, Ponmala Abdul Qader
+                Musliar, Wandoor Abdur Rahma Faizi, Koottampara Abdurahman
+                Darimi, Mikhadad Baqavi Chunkathara and other scholars and
+                political personalities presence make great pleasure.
+              </p>
+            </div>
+            <div className="hidden lg:grid  shadow-md rounded border-cyan-700 bg-white p-2 mt-3">
               {" "}
               <div className="event1__img rounded-md   h-64      order-first lg:order-last "></div>
             </div>
           </div>
-          
 
           <div
             className="mt-10 lg:mt-20 grid md:grid-cols-2 lg:grid-cols-3 gap-8

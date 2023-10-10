@@ -25,7 +25,7 @@ export default function Events() {
 
       <div className="content pt-7 md:pt-16 pb-7 md:pb-32">
         <div className=" md:w-11/12 m-auto p-4 md:p-0 ">
-          <div className="grid lg:grid-cols-3 ">
+          <div className="lg:grid lg:grid-cols-3 ">
             <div className="lg:col-span-2">
               <h3 className="text-cyan-800 text-xl font-bold">
                 10th Anniversary of Jalaliyya Ratheeb{" "}

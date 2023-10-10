@@ -5,7 +5,20 @@
   /* background-color: red; */
     font-family: 'Nunito', sans-serif;
   }
-
+  .about__welcome{
+    /* font-family: 'Aboreto', cursive; */
+    /* font-family: 'Charis SIL', serif; */
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Inconsolata', monospace; */
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Margarine', cursive; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Nunito', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-family: 'Space Mono', monospace; */
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+  }
   .main__banner__box {
     /* background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Prayer_in_Cairo_1865.jpg/1200px-Prayer_in_Cairo_1865.jpg'); */
     height: 100vh;  
