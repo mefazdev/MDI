@@ -39,7 +39,7 @@ export default function Hadiya() {
           <h1 className="text-center text-xl lg:text-3xl md:text-4xl text-white pt-10 md:pt-16 font-bold   ">
             WOMENS ARTS & HADIYA ACADEMY
           </h1>
-        </div>
+         
       </div> */}
 
       <HadiyaBanner />
