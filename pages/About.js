@@ -82,7 +82,7 @@ export default function About() {
   {/* <Image src={img2} className="rounded" /> */}
   </div>
   <div className="p-1 pt-2 text-cyan-950">
-  <p className="text-center text-lg   ">Abdurahman Darimi Kutampara</p>
+  <p className="text-center text-lg   ">Abdurahman Darimi Kootampara</p>
   </div>
        
  

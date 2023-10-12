@@ -63,6 +63,9 @@ export default function Zahrath() {
             <div className="zahra__img hidden lg:grid  h-64  mt-6   order-first lg:order-last "></div>
           </div>
 
+          <a href="/zahra.pdf" download="/zahra.pdf">
+          <button className= "hover:bg-cyan-800 text-lg hover:rounded mt-6  bg-white border border-cyan-800    flex m-auto  hover:text-white p-2   px-3 ">Application Form For Admission</button>
+          </a>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6  mt-10 lg:mt-24">
             {imgs?.map((d, i) => {
               if (!more) {

@@ -13,6 +13,7 @@ import img6 from "../assets/images/orphanage/orph-6.jpeg";
 import img7 from "../assets/images/hadiya/hadiya-4.jpeg";
 import img8 from "../assets/images/hadiya/hadiya-1.jpeg";
 import img9 from "../assets/images/orphanage/orph-8.jpeg";
+import Link from "next/link";
 
 
 export default function Orphanage() {
@@ -135,7 +136,11 @@ export default function Orphanage() {
                 </div>
               </div>
             </div>
+            
           </div>
+          <a href="/destituteHome.pdf" download="/destituteHome.pdf">
+          <button className= "hover:bg-cyan-800 text-lg hover:rounded mt-6  bg-white border border-cyan-800    flex m-auto  hover:text-white p-2   px-3 ">Application Form For Admission</button>
+          </a>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6 mt-10 m lg:mt-24">
           {imgs?.map((d, i) => {
               if (!more) {
@@ -207,7 +212,23 @@ export default function Orphanage() {
           ) : (
             ""
           )}
+          
+           
+
+
+{/* <div className="bg-slate-200 rounded mt-10 p-5 flex justify-between items-center lg:w-5/12">
+  <div>
+<p className="text-lg">Application Form </p>
+  </div>
+<a href="/destituteHome.pdf" download="/destituteHome.pdf">
+          <button className= "hover:bg-cyan-900 border border-cyan-800 rounded hover:text-white p-1 px-3 ">Download PDF</button>
+          </a>
+
+</div> */}
+        
+    
         </div>
+
       </div>
 
       <Footer />

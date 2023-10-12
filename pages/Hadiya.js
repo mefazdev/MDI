@@ -128,7 +128,9 @@ export default function Hadiya() {
               </div>
             </div>
           </div>
-
+          <a href="/hadiya.pdf" download="/hadiya.pdf">
+          <button className= "hover:bg-cyan-800 text-lg hover:rounded mt-6  bg-white border border-cyan-800    flex m-auto  hover:text-white p-2   px-3 ">Application Form For Admission</button>
+          </a>
           <div className="grid lg:grid-cols-2  lg:gap-5">
             <div className=" bg-slat-200 border bg-white  mt-10 shadow-xl  p-5">
               <div className="flex  text-cyan-700 font-semibold p-1 px-4       ">
