@@ -230,7 +230,7 @@
   }
   
   .main__head__div h1,h2 {
-    border: solid #fff 1px;
+    /* border: solid #fff 1px; */
     /* font-family: "Poppins", sans-serif; */
     font-size: 60px;
     color: #fff;
@@ -314,17 +314,17 @@
   @keyframes reveal {
     0% {
       opacity: 0;
-      width: 0px;
-    }
-    20% {
-      opacity: 1;
-      width: 30%;
+      width: 0%;
     }
     30% {
+      opacity: 1;
       width: 50%;
     }
-    80% {
+   
+    
+    60% {
       opacity: 1;
+  width: 70%;
     }
     100% {
       opacity: 0;
@@ -661,8 +661,8 @@
 
 
 
-@media only screen and (min-width: 900px) {
-  .even__item{
-   /* height: 480px; */
-  }
-}
+ 
+
+
+
+ 

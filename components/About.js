@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="m-auto mt-10   px-4 md:px-0 md:w-11/12 ">
+    <div id='about' className="m-auto mt-10   px-4 md:px-0 md:w-11/12 ">
       <div className="home__subhea">
         <div className="about__welcome bg-cyan- ">
           <h3 className="text-3xl lg:text-6xl     font-bold text-cyan-800 text-center animate-pulse    ">

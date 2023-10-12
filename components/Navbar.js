@@ -40,10 +40,10 @@ export default function Navbar() {
   return (
     <div className="navbar  border   text-cyan-900">
       <div className="nav__content p-2 pl-5 md:pl-0 m-auto md:w-11/12">
-        <div className="nav__container  grid grid-cols-3 lg:grid-cols-3   ">
+        <div className="nav__container  grid grid-cols-3 xl:grid-cols-2     ">
           <div className="flex items-center  w-full col-span-2 lg:col-span-1">
             <div
-              className="log  h-9 w-9 lg:w-12 lg:h-12"
+              className="log  h-9 w-9 lg:w-16 lg:h-16"
               style={{ cursor: "pointer" }}
             >
               <Link href="/">
@@ -56,8 +56,8 @@ export default function Navbar() {
             {/* <p className="ml-3 text-lg lg:text-2xl font-bold">مدار الدعوة الاسلامية</p> */}
           </div>
 
-          <div className="w-full lg:col-span-2   ">
-            <div className="nav__item__row hidden xl:flex    justify-between">
+          <div className="w-full lg:col-span-2 xl:col-span-1   ">
+            <div className="nav__item__row hidden lg:flex    justify-between">
               <span className="flex  ">
                 <Link href="/">
                   <h6 className="hover:animate-ease-linear hover:animate-wiggle">HOME</h6>
@@ -227,7 +227,7 @@ export default function Navbar() {
               </Link>
             </div>
 
-            <div className="float-right xl:hidden">
+            <div className="float-right lg:hidden">
               <Link href={"/Donate"}>
                 <button className=" mr-4  p-0.5 text-cyan-800 px-3 border border-cyan-900 ">
                   Give

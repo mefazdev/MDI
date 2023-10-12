@@ -43,7 +43,7 @@ export default function Events() {
       <div className="prgm__content__row px-4 lg:px-0 lg:w-11/12   m-auto mt-10  ">
         <Carousel
           responsive={responsive}
-          // autoPlay
+          autoPlay
           draggable={false}
           showDots={true}
           infinite={true}
