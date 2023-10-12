@@ -33,7 +33,7 @@ export default function About() {
     </div>
      
       {/* </div> */}
-    <div className="lg:w-80 rounde mt-2"><Image src={usthad}   /></div>
+    <div className="  lg:w-80 rounde mt-2"><Image src={usthad}   /></div>
     {/* <div className="bg-cyan-900 p-1 mt- text-white"> */}
     
     <div className="p-1 pt-2 text-cyan-950 ">
@@ -51,9 +51,9 @@ export default function About() {
     <p className="text-center text-lg"> Patrons</p>
     </div>
      
-     <div className="grid lg:grid-cols-2 gap-5 mt-5 ">
+     <div className="grid grid-cols-2 gap-5 mt-5 ">
 <div className=" w-full lg:w-fit m-auto  shadow-lg  ">
-<div className=" lg:w-72 h-80    "
+<div className=" lg:w-72 h-64 lg:h-80    "
    style={{
     backgroundImage: `url(${img3.src})`,
 
@@ -71,7 +71,7 @@ export default function About() {
       
 </div>
 <div className=" w-full lg:w-fit m-auto shadow-lg">
-<div className=" h-80 lg:w-72 rounde"
+<div className=" h-64 lg:h-80  lg:w-72 "
  style={{
   backgroundImage: `url(${img2.src})`,
 
