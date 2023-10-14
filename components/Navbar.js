@@ -262,11 +262,11 @@ export default function Navbar() {
               <p>Institutions</p>
             </div>
           </Link>
-          <Link href="/">
+          {/* <Link href="/">
             <div className="collapse_row">
               <p>Downloads</p>
             </div>
-          </Link>
+          </Link> */}
 
           {/* <div className="collapse_row flex">
             <div className="flex" onClick={() => controlMedia()}>
