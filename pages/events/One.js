@@ -5,17 +5,16 @@ import img1 from "../../assets/images/events/18th/1.jpg";
 import img2 from "../../assets/images/events/18th/2.jpg";
 import img3 from "../../assets/images/events/18th/3.jpg";
 import img4 from "../../assets/images/events/18th/4.jpg";
-import img5 from "../../assets/images/events/18th/5.jpg";
+ 
 import img6 from "../../assets/images/events/18th/6.jpg";
 import img7 from "../../assets/images/events/18th/7.jpg";
 import img8 from "../../assets/images/events/18th/8.jpg";
-import img9 from "../../assets/images/events/18th/9.jpg";
+ 
 import img10 from "../../assets/images/events/18th/10.jpg";
 import img11 from "../../assets/images/events/18th/11.jpg";
 import img12 from "../../assets/images/events/18th/12.jpg";
 import img13 from "../../assets/images/events/18th/13.jpg";
-import img14 from "../../assets/images/events/18th/14.jpg";
-import img15 from "../../assets/images/events/18th/15.jpg";
+import img14 from "../../assets/images/events/18th/14.jpg"; 
 import Image from "next/image";
 export default function Events() {
   const [more, setMore] = useState(false);
