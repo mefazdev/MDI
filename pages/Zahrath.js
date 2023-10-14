@@ -7,7 +7,10 @@ import img3 from "../assets/images/zahra/zahra-3.jpeg";
 import img4 from "../assets/images/zahra/zahra-4.jpeg";
 import img5 from "../assets/images/zahra/zahra-5.jpeg";
 import img6 from "../assets/images/zahra/zahra-2.jpeg";
+import eve6 from "../assets/images/events/zahra/7.jpg";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Footer from "@/components/Footer";
+import { Link } from "@mui/material";
 
 export default function Zahrath() {
   const [more, setMore] = useState(false);
@@ -131,6 +134,64 @@ export default function Zahrath() {
           ) : (
             ""
           )}
+
+<div className="mt-16">
+            <div className="bg-cyan-950 w-fit  px-5 p-1 text-white">
+              <p>EVENTS</p>
+            </div>
+
+            <div className="gap-10 mt-5 grid md:grid-cols-2 xl:grid-cols-3">
+            <div className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+            <Link href={`/events/Six`} style={{textDecoration:'none',color:'inherit'}}>
+              <div>
+                {" "}
+                <div
+                  style={{
+                    backgroundImage: `url(${eve6.src})`,
+
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                  className="h-52 relative"
+                >
+                  <div className="absolute bottom-0">
+                  <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                    <p className="">
+                      10 <span className="text-base font-thin">June</span>{" "}
+                    </p>
+                    {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                    <p className="text-sm font-thin">2023</p>
+                  </div>
+
+                   
+                  </div>
+                </div>
+                <div className="px-4">
+                  <div className="mt-7">
+                    <h3 className="text-cyan-900 font-bold text-lg">
+                      Zahra Convocation
+                    </h3>
+                    <div className="text-gray-600 flex mt-1">
+                      <LocationOnIcon className="text-lg" />
+                      <p>Karulai</p>
+                    </div>
+                    <p className="mt-1">
+                      Zahrathul Qur&apos;an 2nd Annual convocation was very
+                      colorful in the presence of Sadats and scholars.The 2nd
+                      convocation of MDI was a better example of how the
+                      Qu&apos;an was able to inculcate...
+                    </p>{" "}
+                  </div>
+
+                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                    Read More
+                  </button>
+                </div>{" "}
+              </div>
+            </Link>
+          </div>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />

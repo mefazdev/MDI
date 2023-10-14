@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 import CountUp from "react-countup";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 import VisibilitySensor from "react-visibility-sensor-v2";
 import HowToRegOutlinedIcon from "@mui/icons-material/HowToRegOutlined";
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
@@ -13,6 +14,9 @@ import img6 from "../assets/images/orphanage/orph-6.jpeg";
 import img7 from "../assets/images/hadiya/hadiya-4.jpeg";
 import img8 from "../assets/images/hadiya/hadiya-1.jpeg";
 import img9 from "../assets/images/orphanage/orph-8.jpeg";
+
+
+import eve5 from "../assets/images/events/dest-ing/1.jpg";
 import Link from "next/link";
 
 
@@ -213,18 +217,64 @@ export default function Orphanage() {
             ""
           )}
           
+
            
 
+          <div className="mt-16">
+            <div className="bg-cyan-950 w-fit  px-5 p-1 text-white">
+              <p>EVENTS</p>
+            </div>
 
-{/* <div className="bg-slate-200 rounded mt-10 p-5 flex justify-between items-center lg:w-5/12">
-  <div>
-<p className="text-lg">Application Form </p>
-  </div>
-<a href="/destituteHome.pdf" download="/destituteHome.pdf">
-          <button className= "hover:bg-cyan-900 border border-cyan-800 rounded hover:text-white p-1 px-3 ">Download PDF</button>
-          </a>
+            <div className="gap-10 mt-5 grid md:grid-cols-2 xl:grid-cols-3">
+            <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+            <Link href={`/events/Five`}>
+              <div>
+                {" "}
+                <div
+                  style={{
+                    backgroundImage: `url(${eve5.src})`,
 
-</div> */}
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                  className="h-52 relative"
+                >
+                  <div className="absolute bottom-0">
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        10 <span className="text-base font-thin">June</span>{" "}
+                      </p>
+                      {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                      <p className="text-sm font-thin">2023</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="px-4">
+                  <div className="mt-7">
+                    <h3 className="text-cyan-900 font-bold text-lg">
+                      Destitute Home New Block Inauguration
+                    </h3>
+                    <div className="text-gray-600 flex mt-1">
+                      <LocationOnIcon className="text-lg" />
+                      <p>Karulai</p>
+                    </div>
+                    <p className="mt-1">
+                      Alhamdulillah, through five years of hard work, we were
+                      able to achieve it by the grace of Allah, the Merciful.
+                      The hostel was inaugurated on 10 June 2023 in the presence
+                      of Syeds and scholars.
+                    </p>{" "}
+                  </div>
+
+                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                    Read More
+                  </button>
+                </div>{" "}
+              </div>
+            </Link>
+          </div>
+            </div>
+          </div>
         
     
         </div>

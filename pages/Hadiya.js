@@ -281,7 +281,7 @@ export default function Hadiya() {
                     <div className="px-4">
                       <div className="mt-7">
                         <h3 className="text-cyan-900 font-bold text-lg">
-                          Hadiya Convocation
+                          Hadiya Graduation Ceremony
                         </h3>
                         <div className="text-gray-600 flex mt-1">
                           <LocationOnIcon className="text-lg" />
