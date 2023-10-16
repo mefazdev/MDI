@@ -11,6 +11,7 @@ import eve6 from "../assets/images/events/zahra/7.jpg";
 import Carousel from "react-multi-carousel";
 
 import eve7 from "../assets/images/events/seminar/1.jpg";
+import eve8 from "../assets/images/events/silver/1.jpeg";
 import "react-multi-carousel/lib/styles.css";
 
 export default function Events() {
@@ -56,6 +57,7 @@ export default function Events() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
+          
           <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Five`}>
               <div>
@@ -117,16 +119,14 @@ export default function Events() {
                   className="h-52 relative"
                 >
                   <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
-                    <p className="">
-                      15 <span className="text-base font-thin">Feb</span>{" "}
-                    </p>
-                    {/* <p className="-mt-1 text-lg font-thin">June</p> */}
-                    <p className="text-sm font-thin">2023</p>
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        15 <span className="text-base font-thin">Feb</span>{" "}
+                      </p>
+                      {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                      <p className="text-sm font-thin">2023</p>
+                    </div>
                   </div>
-                  </div>
-
-                  
                 </div>
                 <div className="px-4">
                   <div className="mt-7">
@@ -167,21 +167,19 @@ export default function Events() {
                   className="h-52 relative"
                 >
                   <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
-                    <p className="">
-                      25 <span className="text-base font-thin">Feb</span>{" "}
-                    </p>
-                    {/* <p className="-mt-1 text-lg font-thin">June</p> */}
-                    <p className="text-sm font-thin">2023</p>
-                  </div>
-
-                   
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        25 <span className="text-base font-thin">Feb</span>{" "}
+                      </p>
+                      {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                      <p className="text-sm font-thin">2023</p>
+                    </div>
                   </div>
                 </div>
                 <div className="px-4">
                   <div className="mt-7">
                     <h3 className="text-cyan-900 font-bold text-lg">
-                    Hadiya Graduation Ceremony
+                      Hadiya Graduation Ceremony
                     </h3>
                     <div className="text-gray-600 flex mt-1">
                       <LocationOnIcon className="text-lg" />
@@ -215,15 +213,13 @@ export default function Events() {
                   className="h-52 relative"
                 >
                   <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
-                    <p className="">
-                      10 <span className="text-base font-thin">June</span>{" "}
-                    </p>
-                    {/* <p className="-mt-1 text-lg font-thin">June</p> */}
-                    <p className="text-sm font-thin">2023</p>
-                  </div>
-
-                   
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        10 <span className="text-base font-thin">June</span>{" "}
+                      </p>
+                      {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                      <p className="text-sm font-thin">2023</p>
+                    </div>
                   </div>
                 </div>
                 <div className="px-4">
@@ -264,15 +260,13 @@ export default function Events() {
                   className="h-52 relative"
                 >
                   <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
-                    <p className="">
-                      18 <span className="text-base font-thin">Feb</span>{" "}
-                    </p>
-                    {/* <p className="-mt-1 text-lg font-thin">June</p> */}
-                    <p className="text-sm font-thin">2023</p>
-                  </div>
-
-                    
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        18 <span className="text-base font-thin">Feb</span>{" "}
+                      </p>
+                      {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                      <p className="text-sm font-thin">2023</p>
+                    </div>
                   </div>
                 </div>
                 <div className="px-4">
@@ -298,50 +292,49 @@ export default function Events() {
               </div>
             </Link>
           </div>
-     
+
           <div className="bg-white even__item   shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-          <Link href={`/events/Seven`}>
-            <div>
-              {" "}
-              <div
-                style={{
-                  backgroundImage: `url(${eve7  .src})`,
+            <Link href={`/events/Seven`}>
+              <div>
+                {" "}
+                <div
+                  style={{
+                    backgroundImage: `url(${eve7.src})`,
 
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-                className="h-52 relative"
-              >
-                <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
-                    <p>10 </p>
-                    <p className="-mt-1">June</p>
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                  className="h-52 relative"
+                >
+                  <div className="absolute bottom-0">
+                    <div className="bg-cyan-900 text-white w-fit p-2 px-5 text-xl font-bold tracking-wide">
+                      <p>10 </p>
+                      <p className="-mt-1">June</p>
+                    </div>
                   </div>
                 </div>
+                <div className="px-4">
+                  <div className="mt-7">
+                    <h3 className="text-cyan-900 font-bold text-lg">
+                      അന്നത്തെ കരുളായി &apos;23 Historical Seminar
+                    </h3>
+                    <div className="text-gray-600 flex mt-1">
+                      <LocationOnIcon className="text-lg" />
+                      <p>Karulai</p>
+                    </div>
+                    <p className="mt-1">
+                      &apos;അന്നത്തെ കരുളായി&apos; was a seminar with a wide
+                      range of subject presentations marking each phase of the
+                      cultural, social and economic...
+                    </p>{" "}
+                  </div>
+
+                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                    Read More
+                  </button>
+                </div>{" "}
               </div>
-              <div className="px-4">
-                <div className="mt-7">
-                  <h3 className="text-cyan-900 font-bold text-lg">
-                  അന്നത്തെ കരുളായി &apos;23 Historical Seminar
-                  </h3>
-                  <div className="text-gray-600 flex mt-1">
-                    <LocationOnIcon className="text-lg" />
-                    <p>Karulai</p>
-                  </div>
-                  <p className="mt-1">
-                  &apos;അന്നത്തെ കരുളായി&apos; was a seminar with a wide range of subject
-              presentations marking each phase of the cultural, social and
-              economic... 
-           
-                  </p>{" "}
-                </div>
-
-                <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                  Read More
-                </button>
-              </div>{" "}
-            </div>
-          </Link>
+            </Link>
           </div>
           <div className="bg-white even__item   shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/One`}>
@@ -356,15 +349,13 @@ export default function Events() {
                   className="h-52 relative"
                 >
                   <div className="absolute bottom-0">
-                  <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
-                    <p className="">
-                      4-5 <span className="text-base font-thin">Dec</span>{" "}
-                    </p>
-                    {/* <p className="-mt-1 text-lg font-thin">June</p> */}
-                    <p className="text-sm font-thin">2015</p>
-                  </div>
-
-                   
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        4-5 <span className="text-base font-thin">Dec</span>{" "}
+                      </p>
+                      {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                      <p className="text-sm font-thin">2015</p>
+                    </div>
                   </div>
                 </div>
                 <div className="px-4">
@@ -381,6 +372,53 @@ export default function Events() {
                       Conference was held on 4th 5th 6th December 2015 at CM
                       Nagar, MDI Campus Karulai. Sunni Jamiathul Ulama General
                       Secretary Kanthapuram...
+                    </p>{" "}
+                  </div>
+
+                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                    Read More
+                  </button>
+                </div>{" "}
+              </div>
+            </Link>
+          </div>
+
+          <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+            <Link href={`/events/Eight`}>
+              <div>
+                {" "}
+                <div
+                  style={{
+                    backgroundImage: `url(${eve8.src})`,
+
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                  className="h-52 relative"
+                >
+                  <div className="absolute bottom-0">
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        15-26 <span className="text-base font-thin">Feb</span>{" "}
+                      </p>
+                      {/* <p className="-mt-1 text-lg font-thin">June</p> */}
+                      <p className="text-sm font-thin">2023</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="px-4">
+                  <div className="mt-7">
+                    <h3 className="text-cyan-900 font-bold text-lg">
+                      Silver Jubilee
+                    </h3>
+                    <div className="text-gray-600 flex mt-1">
+                      <LocationOnIcon className="text-lg" />
+                      <p>Karulai</p>
+                    </div>
+                    <p className="mt-1">
+                      The conference was grandly held at mdi campus from 15th to
+                      26th February 2023 along with other programs like &apos;annathe
+                      karulai&apos; historic summit, grama sancharam, ummi summit... 
                     </p>{" "}
                   </div>
 

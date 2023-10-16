@@ -70,6 +70,12 @@
     background-position: center;
     
 }
+.event8__img{
+    background-image: url('../assets/images/events/silver/1.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
 .page__banner{
     font-family: 'Nunito', sans-serif;
 
