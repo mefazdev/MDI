@@ -15,7 +15,7 @@ import img8 from "../../assets/images/events/dest-ing/8.jpg";
 export default function Events() {
   const [more, setMore] = useState(false);
 
-  const imgs = [img2, img3, img4, img5, img6, img8, img7];
+  const imgs = [img2, img3, img4, img5, img6,  img7];
   return (
     <div>
       <Navbar />
