@@ -27,7 +27,7 @@ export default function Events() {
             style={{ textTransform: "uppercase" }}
             className="text-center text-xl lg:text-3xl md:text-4xl text-white pt-10 md:pt-16 font-bold   "
           >
-            Destitute Home New Block Inauguration
+            Silver Jubilee
           </h1>
         </div>
       </div>
@@ -37,7 +37,7 @@ export default function Events() {
           <div className="lg:grid grid-cols-3">
             <div className="col-span-2">
               <h3 className="text-cyan-800 text-xl font-bold">
-                Destitute Home New Block Inauguration
+              Silver Jubilee
               </h3>
               <p className="mt-2">
                 The conference was grandly held at mdi campus from 15th to 26th
