@@ -56,53 +56,54 @@ export default function Events() {
           removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
-        > <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
-        <Link href={`/events/Eight`}>
-          <div>
-            {" "}
-            <div
-              style={{
-                backgroundImage: `url(${eve8.src})`,
+        >
+          <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+            <Link href={`/events/Eight`}>
+              <div>
+             
+                <div
+                  style={{
+                    backgroundImage: `url(${eve8.src})`,
 
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
-              className="h-52 relative"
-            >
-              <div className="absolute bottom-0">
-                <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
-                  <p className="">
-                    15-26 <span className="text-base font-thin">Feb</span>{" "}
-                  </p>
-                  {/* <p className="-mt-1 text-lg font-thin">June</p> */}
-                  <p className="text-sm font-thin">2023</p>
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                  className="h-52 relative"
+                >
+                  <div className="absolute bottom-0">
+                    <div className="bg-cyan-900 text-white w-fit p-1 px-4 text-lg font-bold tracking-wide">
+                      <p className="">
+                        15-26 <span className="text-base font-thin">Feb</span>{" "}
+                      </p> 
+                      <p className="text-sm font-thin">2023</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="px-4">
-              <div className="mt-7">
-                <h3 className="text-cyan-900 font-bold text-lg">
-                  Silver Jubilee
-                </h3>
-                <div className="text-gray-600 flex mt-1">
-                  <LocationOnIcon className="text-lg" />
-                  <p>Karulai</p>
-                </div>
-                <p className="mt-1">
-                  The conference was grandly held at mdi campus from 15th to
-                  26th February 2023 along with other programs like &apos;annathe
-                  karulai&apos; historic summit, grama sancharam, ummi summit... 
-                </p>{" "}
-              </div>
+                <div className="px-4">
+                  <div className="mt-7">
+                    <h3 className="text-cyan-900 font-bold text-lg">
+                      Silver Jubilee
+                    </h3>
+                    <div className="text-gray-600 flex mt-1">
+                      <LocationOnIcon className="text-lg" />
+                      <p>Karulai</p>
+                    </div>
+                    <p className="mt-1">
+                      The conference was grandly held at mdi campus from 15th to
+                      26th February 2023 along with other programs like
+                      &apos;annathe karulai&apos; historic summit, grama
+                      sancharam, ummi summit...
+                    </p> 
+                  </div>
 
-              <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                Read More
-              </button>
-            </div>{" "}
+                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                    Read More
+                  </button>
+                </div> 
+              </div>
+            </Link>
           </div>
-        </Link>
-      </div>
-          
+
           <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Five`}>
               <div>
@@ -427,8 +428,6 @@ export default function Events() {
               </div>
             </Link>
           </div>
-
-         
         </Carousel>
       </div>
     </div>
