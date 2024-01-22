@@ -35,7 +35,7 @@ export default function Events() {
     },
   };
   return (
-    <div className="h__prgm  pb-24   mt-10 lg:mt-20  md:px-0 md:w-11/12 m-auto  ">
+    <div className="h__prgm  pb-24   mt-10 lg:mt-28  md:px-0 md:w-11/12 m-auto  ">
       <h3 className="  text-cyan-900 font-extrabold  text-2xl text-center underline underline-offset-8">
         EVENTS
       </h3>
@@ -55,9 +55,10 @@ export default function Events() {
           containerClass="carousel-container"
           removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style"
-          itemClass="carousel-item-padding-40-px"
+          itemClass="p-4"
+          className="pb-10"
         >
-          <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="even__item   rounded  bg-white shadow-md m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Eight`}>
               <div>
              
@@ -88,7 +89,7 @@ export default function Events() {
                       <LocationOnIcon className="text-lg" />
                       <p>Karulai</p>
                     </div>
-                    <p className="mt-1">
+                    <p className="mt-1 text-[16px]">
                       The conference was grandly held at mdi campus from 15th to
                       26th February 2023 along with other programs like
                       &apos;annathe karulai&apos; historic summit, grama
@@ -96,18 +97,17 @@ export default function Events() {
                     </p> 
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
                     Read More
                   </button>
                 </div> 
               </div>
             </Link>
           </div>
-
-          <div className="even__item   bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="even__item   bg-white shadow-md m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Five`}>
               <div>
-                {" "}
+            
                 <div
                   style={{
                     backgroundImage: `url(${eve5.src})`,
@@ -130,13 +130,13 @@ export default function Events() {
                 <div className="px-4">
                   <div className="mt-7">
                     <h3 className="text-cyan-900 font-bold text-lg">
-                      Destitute Home New Block Inauguration
+                      Destitute home new block inauguration
                     </h3>
                     <div className="text-gray-600 flex mt-1">
                       <LocationOnIcon className="text-lg" />
                       <p>Karulai</p>
                     </div>
-                    <p className="mt-1">
+                    <p className="mt-1 text-[16px]">
                       Alhamdulillah, through five years of hard work, we were
                       able to achieve it by the grace of Allah, the Merciful.
                       The hostel was inaugurated on 10 June 2023 in the presence
@@ -144,14 +144,14 @@ export default function Events() {
                     </p>{" "}
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                    Read More
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
+                 Read More
                   </button>
                 </div>{" "}
               </div>
             </Link>
           </div>
-          <div className="bg-white even__item  m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="bg-white even__item  m-2 shadow-md   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Two`}>
               <div>
                 {" "}
@@ -184,7 +184,8 @@ export default function Events() {
                       <p>Karulai</p>
                     </div>
 
-                    <p>
+                    <p className="  text-[16px]">
+                  
                       MDI organizes a monthly prayer meeting and Jalaliyya
                       Ratheeb on fifteenth of every month which is reported to
                       be the largest Majlis in this area, It is held at MDI
@@ -192,14 +193,14 @@ export default function Events() {
                     </p>
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                    Read More
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
+               Read More
                   </button>
                 </div>{" "}
               </div>
             </Link>
           </div>
-          <div className="even__item bg-white m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="even__item bg-white m-2 shadow-md   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Three`}>
               <div>
                 {" "}
@@ -231,21 +232,22 @@ export default function Events() {
                       <LocationOnIcon className="text-lg" />
                       <p>Karulai</p>
                     </div>
-                    <p className="mt-1">
+                    <p className="mt-1 text-[16px]">
+                  
                       Hadiya graduation ceremony for 100 graduates from MDI
                       Women&apos;s Hadiya Academy was held on February 25, 2023.
                       Syed Fall Geoffrey Kundur, Shoukathali Saqafi Karulai...
                     </p>{" "}
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                    Read More
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
+                      Read More
                   </button>
                 </div>{" "}
               </div>
             </Link>
           </div>
-          <div className="even__item bg-white shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="even__item bg-white shadow-md m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Six`}>
               <div>
                 {" "}
@@ -277,7 +279,7 @@ export default function Events() {
                       <LocationOnIcon className="text-lg" />
                       <p>Karulai</p>
                     </div>
-                    <p className="mt-1">
+                    <p className="mt-1 text-[16px]">
                       Zahrathul Qur&apos;an 2nd Annual convocation was very
                       colorful in the presence of Sadats and scholars.The 2nd
                       convocation of MDI was a better example of how the
@@ -285,14 +287,14 @@ export default function Events() {
                     </p>{" "}
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                    Read More
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
+                   Read More
                   </button>
                 </div>{" "}
               </div>
             </Link>
           </div>
-          <div className="even__item bg-white m-2 shadow-xl   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="even__item bg-white m-2 shadow-md   pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Four`}>
               <div>
                 {" "}
@@ -318,20 +320,20 @@ export default function Events() {
                 <div className="px-4">
                   <div className="mt-7">
                     <h3 className="text-cyan-900 font-bold text-lg">
-                      Reminisce&apos;23 English School Grand Alumni Meet
+                      Reminisce&apos;23 english school grand alumni meet
                     </h3>
                     <div className="text-gray-600 flex mt-1">
                       <LocationOnIcon className="text-lg" />
                       <p>Karulai</p>
                     </div>
-                    <p className="mt-1">
+                    <p className="mt-1 text-[16px]">
                       Batches from 2007 to 2022 who completed their studies from
                       MDI English Medium School met on February 18, 2023 at the
                       reminisce&apos;3 school
-                    </p>{" "}
+                    </p> 
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
                     Read More
                   </button>
                 </div>{" "}
@@ -339,7 +341,7 @@ export default function Events() {
             </Link>
           </div>
 
-          <div className="bg-white even__item   shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="bg-white even__item    shadow-md m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/Seven`}>
               <div>
                 {" "}
@@ -368,21 +370,22 @@ export default function Events() {
                       <LocationOnIcon className="text-lg" />
                       <p>Karulai</p>
                     </div>
-                    <p className="mt-1">
+                    <p className="mt-1 text-[16px]">
+                  
                       &apos;അന്നത്തെ കരുളായി&apos; was a seminar with a wide
                       range of subject presentations marking each phase of the
                       cultural, social and economic...
                     </p>{" "}
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
                     Read More
                   </button>
                 </div>{" "}
               </div>
             </Link>
           </div>
-          <div className="bg-white even__item   shadow-xl m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
+          <div className="bg-white even__item   shadow-md m-2  pb-4 border-b-4 border-cyan-700 hover:scale-105 transform transition-transform duration-300 ease-in-out hover:bg-white hover:shadow-xl">
             <Link href={`/events/One`}>
               <div>
                 <div
@@ -407,13 +410,14 @@ export default function Events() {
                 <div className="px-4">
                   <div className="mt-7">
                     <h3 className="text-cyan-900 font-bold text-lg">
-                      18th ANNIVERSARY
+                      18th Anniversary
                     </h3>
                     <div className="text-gray-600 flex mt-1">
                       <LocationOnIcon className="text-lg" />
                       <p>Karulai</p>
                     </div>
-                    <p className="mt-1">
+                    <p className="mt-1 text-[16px]">
+                  
                       Madaru da&apos;awathil islamiyya (MDI) 18th Annual
                       Conference was held on 4th 5th 6th December 2015 at CM
                       Nagar, MDI Campus Karulai. Sunni Jamiathul Ulama General
@@ -421,13 +425,14 @@ export default function Events() {
                     </p>{" "}
                   </div>
 
-                  <button className="mt-3  flex m-auto bg-yellow-600 text-white p-1.5 px-5 rounded-sm">
-                    Read More
+                  <button className="mt-3 text-sm  flex m-auto bg-yellow-600 text-white p-1  px-5 rounded-sm">
+                   Read More
                   </button>
                 </div>{" "}
               </div>
             </Link>
           </div>
+        
         </Carousel>
       </div>
     </div>

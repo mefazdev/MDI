@@ -61,8 +61,8 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <About />
-        <Message />
+        {/* <About />
+        <Message /> */}
        
 
         <Instituions />
@@ -70,7 +70,7 @@ export default function Home() {
 <Events/>
         {/* <Counting/> */}
 
-        <News />
+        {/* <News /> */}
       </div>
 
       <Footer />
