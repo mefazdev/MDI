@@ -37,7 +37,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.mdikarulai.in" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      {/* <Navbar />
 
       <div className="content">
         <MainBanner />
@@ -68,12 +68,17 @@ export default function Home() {
         <Instituions />
 
 <Events/>
-        {/* <Counting/> */}
-
-        {/* <News /> */}
+        
       </div>
 
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
+
+
+
+
+{/* <Counting/> */}
+
+        {/* <News /> */}
