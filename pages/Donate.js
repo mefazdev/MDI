@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
-import upi from '../assets/images/upi.png'
+import upi from '../assets/images/upi.jpeg'
 import Image from "next/image";
 
 export default function Contact() {
@@ -48,21 +48,23 @@ export default function Contact() {
               
 
               <div className="flex ">
-                <div className="m-auto bg-slate-50 p-2 lg:p-5 text-lg  ">
-                  <p>Shoukathali.k</p>
+                
+                <div className="m-auto bg-slate-50 p-2 lg:p-5 text-sm  ">
+                <div className="w-64 m-auto">
+  <Image  src={upi} />
+ </div>
+                  <p className="mt-7">Shoukathali.k</p>
                   <p>G.Secretary, Madaru Da&apos;wathil Islamiyya</p>
-                  <p className="text-2xl text-cyan-800 mt-1">
+                  <p className="text-lg text-cyan-800 mt-1">
                     A/c No:0985073000000084
                   </p>
                   <p className="text-cyan-800">IFSC:SIBL0000985</p>
                   <p>SBI KARULAI BRANCH</p>
 
-                  <p className="text-cyan-800 text-2xl mt-1">
+                  <p className="text-cyan-800 text-lg mt-1">
                     Gpay : 9656570068
                   </p>
- <div className="w-16 m-auto">
-  <Image  src={upi} />
- </div>
+
                 </div>
               </div>
             </div>

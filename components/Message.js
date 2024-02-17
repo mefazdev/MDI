@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import gs from "../assets/images/gs.jpg";
+import gs from "../assets/images/gs.jpeg";
 import Image from "next/image";
 export default function Message() {
   return (
